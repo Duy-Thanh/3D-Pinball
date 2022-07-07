@@ -1,0 +1,539 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "SDL_mixer/external/libmodplug/libmodplug.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"install",
+			"add_definitions",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"SDL_mixer/external/libmodplug/CMakeLists.txt",
+			"CMakeLists.txt",
+			"SDL_mixer/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 106,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 169,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 90,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 80,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 85,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 13,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 103,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 136,
+				"parent" : 9
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 22,
+				"parent" : 11
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 60,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -O0 -O1 -O2 -O3 -flto=full -O0 -O1 -O2 -O3 -flto=full -Oz -DNDEBUG  -O0 -O1 -O2 -O3 -flto=full -O0 -O1 -O2 -O3 -flto=full -fPIC   -Wall"
+				},
+				{
+					"fragment" : "-std=gnu++11"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 3,
+					"define" : "HAVE_SINF"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "HAVE_STDINT_H"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "HAVE_STRINGS_H"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "MMCMP_SUPPORT"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "MODPLUG_BUILD"
+				},
+				{
+					"define" : "MODPLUG_HEADER=<modplug.h>"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "MODPLUG_STATIC"
+				},
+				{
+					"define" : "MUSIC_MOD_MODPLUG"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 10,
+					"path" : "C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/src/main/cpp/SDL/include"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/src/main/cpp/SDL_mixer/include"
+				},
+				{
+					"backtrace" : 12,
+					"path" : "C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/src/main/cpp/SDL_mixer/src"
+				},
+				{
+					"backtrace" : 12,
+					"path" : "C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/src/main/cpp/SDL_mixer/src/codecs"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/src/main/cpp/SDL_mixer/external/libmodplug/src"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/src/main/cpp/SDL_mixer/external/libmodplug/src/libmodplug"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/armeabi-v7a/SDL_mixer/external/libmodplug"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				34,
+				35,
+				36,
+				37,
+				38
+			],
+			"sysroot" : 
+			{
+				"path" : "C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot"
+			}
+		}
+	],
+	"id" : "modplug::@44fa865d9cf9280dc3c1",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 2,
+				"path" : "lib"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "C:/Program Files (x86)/SpaceCadetPinball"
+		}
+	},
+	"name" : "modplug",
+	"nameOnDisk" : "libmodplug.a",
+	"paths" : 
+	{
+		"build" : "SDL_mixer/external/libmodplug",
+		"source" : "SDL_mixer/external/libmodplug"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				22,
+				33,
+				39
+			]
+		},
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				34,
+				35,
+				36,
+				37,
+				38
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"path" : "SDL_mixer/external/libmodplug/src/libmodplug/it_defs.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "SDL_mixer/external/libmodplug/src/libmodplug/sndfile.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "SDL_mixer/external/libmodplug/src/libmodplug/stdafx.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "SDL_mixer/external/libmodplug/src/fastmix.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "SDL_mixer/external/libmodplug/src/load_669.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "SDL_mixer/external/libmodplug/src/load_abc.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "SDL_mixer/external/libmodplug/src/load_amf.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "SDL_mixer/external/libmodplug/src/load_ams.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "SDL_mixer/external/libmodplug/src/load_dbm.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "SDL_mixer/external/libmodplug/src/load_dmf.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "SDL_mixer/external/libmodplug/src/load_dsm.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "SDL_mixer/external/libmodplug/src/load_far.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "SDL_mixer/external/libmodplug/src/load_gdm.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "SDL_mixer/external/libmodplug/src/load_it.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "SDL_mixer/external/libmodplug/src/load_mdl.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "SDL_mixer/external/libmodplug/src/load_med.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "SDL_mixer/external/libmodplug/src/load_mid.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "SDL_mixer/external/libmodplug/src/load_mod.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "SDL_mixer/external/libmodplug/src/load_mt2.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "SDL_mixer/external/libmodplug/src/load_mtm.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "SDL_mixer/external/libmodplug/src/load_okt.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "SDL_mixer/external/libmodplug/src/load_pat.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "SDL_mixer/external/libmodplug/src/load_pat.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "SDL_mixer/external/libmodplug/src/load_psm.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "SDL_mixer/external/libmodplug/src/load_ptm.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "SDL_mixer/external/libmodplug/src/load_s3m.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "SDL_mixer/external/libmodplug/src/load_stm.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "SDL_mixer/external/libmodplug/src/load_ult.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "SDL_mixer/external/libmodplug/src/load_umx.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "SDL_mixer/external/libmodplug/src/load_wav.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "SDL_mixer/external/libmodplug/src/load_xm.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "SDL_mixer/external/libmodplug/src/mmcmp.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "SDL_mixer/external/libmodplug/src/modplug.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "SDL_mixer/external/libmodplug/src/modplug.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "SDL_mixer/external/libmodplug/src/snd_dsp.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "SDL_mixer/external/libmodplug/src/snd_flt.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "SDL_mixer/external/libmodplug/src/snd_fx.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "SDL_mixer/external/libmodplug/src/sndfile.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "SDL_mixer/external/libmodplug/src/sndmix.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "SDL_mixer/external/libmodplug/src/tables.h",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

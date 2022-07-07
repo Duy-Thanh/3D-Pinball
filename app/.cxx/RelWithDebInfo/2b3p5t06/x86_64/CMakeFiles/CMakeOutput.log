@@ -1,0 +1,3190 @@
+The target system is: Android - 1 - x86_64
+The host system is: Windows - 10.0.22621 - AMD64
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_05d93 && [1/2] Building C object CMakeFiles/cmTC_05d93.dir/CMakeCCompilerABI.c.o
+Android (7019983 based on r365631c3) clang version 9.0.9 (https://android.googlesource.com/toolchain/llvm-project a2a1e703c0edb03ba29944e529ccbf457742737b) (based on LLVM 9.0.9svn)
+Target: x86_64-none-linux-android21
+Thread model: posix
+InstalledDir: C:\Users\DUYTHA~1\AppData\Local\Android\Sdk\ndk\21.4.7075529\toolchains\llvm\prebuilt\windows-x86_64\bin
+Found candidate GCC installation: C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/i686-linux-android\4.9.x
+Found candidate GCC installation: C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/x86_64-linux-android\4.9.x
+Selected GCC installation: C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/x86_64-linux-android/4.9.x
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ "C:\\Users\\DUYTHA~1\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe" -cc1 -triple x86_64-none-linux-android21 -emit-obj -mrelax-all -mnoexecstack -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mthread-model posix -mdisable-fp-elim -masm-verbose -mconstructor-aliases -munwind-tables -fuse-init-array -target-cpu x86-64 -target-feature +sse4.2 -target-feature +popcnt -target-feature +cx16 -dwarf-column-info -debug-info-kind=limited -dwarf-version=4 -debugger-tuning=gdb -v -ffunction-sections -fdata-sections -coverage-notes-file "C:\\Users\\Duy Thanh\\Downloads\\Compressed\\Pinball-on-Android\\app\\.cxx\\RelWithDebInfo\\2b3p5t06\\x86_64\\CMakeFiles\\CMakeTmp\\CMakeFiles/cmTC_05d93.dir/CMakeCCompilerABI.c.gcno" -resource-dir "C:\\Users\\DUYTHA~1\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\lib64\\clang\\9.0.9" -dependency-file "CMakeFiles\\cmTC_05d93.dir\\CMakeCCompilerABI.c.o.d" -sys-header-deps -MT CMakeFiles/cmTC_05d93.dir/CMakeCCompilerABI.c.o -D ANDROID -D _FORTIFY_SOURCE=2 -isysroot "C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot" -internal-isystem "C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/local/include" -internal-isystem "C:\\Users\\DUYTHA~1\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\lib64\\clang\\9.0.9\\include" -internal-externc-isystem "C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/x86_64-linux-android" -internal-externc-isystem "C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/include" -internal-externc-isystem "C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include" -Wformat -fdebug-compilation-dir "C:\\Users\\Duy Thanh\\Downloads\\Compressed\\Pinball-on-Android\\app\\.cxx\\RelWithDebInfo\\2b3p5t06\\x86_64\\CMakeFiles\\CMakeTmp" -ferror-limit 19 -fmessage-length 0 -stack-protector 2 -fobjc-runtime=gcc -fdiagnostics-show-option -o CMakeFiles/cmTC_05d93.dir/CMakeCCompilerABI.c.o -x c "C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/share/cmake-3.18/Modules/CMakeCCompilerABI.c"
+clang -cc1 version 9.0.9 based upon LLVM 9.0.9svn default target x86_64-w64-windows-gnu
+ignoring nonexistent directory "C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/local/include
+ C:\Users\DUYTHA~1\AppData\Local\Android\Sdk\ndk\21.4.7075529\toolchains\llvm\prebuilt\windows-x86_64\lib64\clang\9.0.9\include
+ C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/x86_64-linux-android
+ C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include
+End of search list.
+[2/2] Linking C executable cmTC_05d93
+Android (7019983 based on r365631c3) clang version 9.0.9 (https://android.googlesource.com/toolchain/llvm-project a2a1e703c0edb03ba29944e529ccbf457742737b) (based on LLVM 9.0.9svn)
+Target: x86_64-none-linux-android21
+Thread model: posix
+InstalledDir: C:\Users\DUYTHA~1\AppData\Local\Android\Sdk\ndk\21.4.7075529\toolchains\llvm\prebuilt\windows-x86_64\bin
+Found candidate GCC installation: C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/i686-linux-android\4.9.x
+Found candidate GCC installation: C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/x86_64-linux-android\4.9.x
+Selected GCC installation: C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/x86_64-linux-android/4.9.x
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ "C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/x86_64-linux-android/4.9.x/../../../../x86_64-linux-android/bin\\ld" "--sysroot=C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot" -pie -z noexecstack --warn-shared-textrel -z now -z relro --hash-style=both --enable-new-dtags --eh-frame-hdr -m elf_x86_64 -dynamic-linker /system/bin/linker64 -o cmTC_05d93 "C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/x86_64-linux-android/21\\crtbegin_dynamic.o" "-LC:\\Users\\DUYTHA~1\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\lib64\\clang\\9.0.9\\lib\\linux\\x86_64" "-LC:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/x86_64-linux-android/4.9.x" "-LC:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/x86_64-linux-android/4.9.x/../../../../x86_64-linux-android/lib/../lib64" "-LC:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/x86_64-linux-android/21" "-LC:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/x86_64-linux-android" "-LC:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/x86_64-linux-android/4.9.x/../../../../x86_64-linux-android/lib" "-LC:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib" --exclude-libs libgcc.a --exclude-libs libgcc_real.a --exclude-libs libatomic.a --build-id --fatal-warnings --no-undefined --gc-sections CMakeFiles/cmTC_05d93.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl "C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/x86_64-linux-android/21\\crtend_android.o"
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/local/include]
+    add: [C:/Users/DUYTHA~1/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/9.0.9/include]
+    add: [C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/x86_64-linux-android]
+    add: [C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include]
+  end of search list found
+  collapse include dir [C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/local/include] ==> [C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/local/include]
+  collapse include dir [C:/Users/DUYTHA~1/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/9.0.9/include] ==> [C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/9.0.9/include]
+  collapse include dir [C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/x86_64-linux-android] ==> [C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/x86_64-linux-android]
+  collapse include dir [C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include] ==> [C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include]
+  implicit include dirs: [C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/local/include;C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/9.0.9/include;C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/x86_64-linux-android;C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(x86_64-linux-android-ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_05d93 && [1/2] Building C object CMakeFiles/cmTC_05d93.dir/CMakeCCompilerABI.c.o]
+  ignore line: [Android (7019983 based on r365631c3) clang version 9.0.9 (https://android.googlesource.com/toolchain/llvm-project a2a1e703c0edb03ba29944e529ccbf457742737b) (based on LLVM 9.0.9svn)]
+  ignore line: [Target: x86_64-none-linux-android21]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: C:\Users\DUYTHA~1\AppData\Local\Android\Sdk\ndk\21.4.7075529\toolchains\llvm\prebuilt\windows-x86_64\bin]
+  ignore line: [Found candidate GCC installation: C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/i686-linux-android\4.9.x]
+  ignore line: [Found candidate GCC installation: C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/x86_64-linux-android\4.9.x]
+  ignore line: [Selected GCC installation: C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/x86_64-linux-android/4.9.x]
+  ignore line: [Candidate multilib: .]
+  ignore line: [@m64]
+  ignore line: [Selected multilib: .]
+  ignore line: [@m64]
+  ignore line: [ "C:\\Users\\DUYTHA~1\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe" -cc1 -triple x86_64-none-linux-android21 -emit-obj -mrelax-all -mnoexecstack -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mthread-model posix -mdisable-fp-elim -masm-verbose -mconstructor-aliases -munwind-tables -fuse-init-array -target-cpu x86-64 -target-feature +sse4.2 -target-feature +popcnt -target-feature +cx16 -dwarf-column-info -debug-info-kind=limited -dwarf-version=4 -debugger-tuning=gdb -v -ffunction-sections -fdata-sections -coverage-notes-file "C:\\Users\\Duy Thanh\\Downloads\\Compressed\\Pinball-on-Android\\app\\.cxx\\RelWithDebInfo\\2b3p5t06\\x86_64\\CMakeFiles\\CMakeTmp\\CMakeFiles/cmTC_05d93.dir/CMakeCCompilerABI.c.gcno" -resource-dir "C:\\Users\\DUYTHA~1\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\lib64\\clang\\9.0.9" -dependency-file "CMakeFiles\\cmTC_05d93.dir\\CMakeCCompilerABI.c.o.d" -sys-header-deps -MT CMakeFiles/cmTC_05d93.dir/CMakeCCompilerABI.c.o -D ANDROID -D _FORTIFY_SOURCE=2 -isysroot "C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot" -internal-isystem "C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/local/include" -internal-isystem "C:\\Users\\DUYTHA~1\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\lib64\\clang\\9.0.9\\include" -internal-externc-isystem "C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/x86_64-linux-android" -internal-externc-isystem "C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/include" -internal-externc-isystem "C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include" -Wformat -fdebug-compilation-dir "C:\\Users\\Duy Thanh\\Downloads\\Compressed\\Pinball-on-Android\\app\\.cxx\\RelWithDebInfo\\2b3p5t06\\x86_64\\CMakeFiles\\CMakeTmp" -ferror-limit 19 -fmessage-length 0 -stack-protector 2 -fobjc-runtime=gcc -fdiagnostics-show-option -o CMakeFiles/cmTC_05d93.dir/CMakeCCompilerABI.c.o -x c "C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/share/cmake-3.18/Modules/CMakeCCompilerABI.c"]
+  ignore line: [clang -cc1 version 9.0.9 based upon LLVM 9.0.9svn default target x86_64-w64-windows-gnu]
+  ignore line: [ignoring nonexistent directory "C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/local/include]
+  ignore line: [ C:\Users\DUYTHA~1\AppData\Local\Android\Sdk\ndk\21.4.7075529\toolchains\llvm\prebuilt\windows-x86_64\lib64\clang\9.0.9\include]
+  ignore line: [ C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/x86_64-linux-android]
+  ignore line: [ C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include]
+  ignore line: [End of search list.]
+  ignore line: [[2/2] Linking C executable cmTC_05d93]
+  ignore line: [Android (7019983 based on r365631c3) clang version 9.0.9 (https://android.googlesource.com/toolchain/llvm-project a2a1e703c0edb03ba29944e529ccbf457742737b) (based on LLVM 9.0.9svn)]
+  ignore line: [Target: x86_64-none-linux-android21]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: C:\Users\DUYTHA~1\AppData\Local\Android\Sdk\ndk\21.4.7075529\toolchains\llvm\prebuilt\windows-x86_64\bin]
+  ignore line: [Found candidate GCC installation: C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/i686-linux-android\4.9.x]
+  ignore line: [Found candidate GCC installation: C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/x86_64-linux-android\4.9.x]
+  ignore line: [Selected GCC installation: C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/x86_64-linux-android/4.9.x]
+  ignore line: [Candidate multilib: .]
+  ignore line: [@m64]
+  ignore line: [Selected multilib: .]
+  ignore line: [@m64]
+  link line: [ "C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/x86_64-linux-android/4.9.x/../../../../x86_64-linux-android/bin\\ld" "--sysroot=C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot" -pie -z noexecstack --warn-shared-textrel -z now -z relro --hash-style=both --enable-new-dtags --eh-frame-hdr -m elf_x86_64 -dynamic-linker /system/bin/linker64 -o cmTC_05d93 "C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/x86_64-linux-android/21\\crtbegin_dynamic.o" "-LC:\\Users\\DUYTHA~1\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\lib64\\clang\\9.0.9\\lib\\linux\\x86_64" "-LC:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/x86_64-linux-android/4.9.x" "-LC:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/x86_64-linux-android/4.9.x/../../../../x86_64-linux-android/lib/../lib64" "-LC:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/x86_64-linux-android/21" "-LC:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/x86_64-linux-android" "-LC:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/x86_64-linux-android/4.9.x/../../../../x86_64-linux-android/lib" "-LC:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib" --exclude-libs libgcc.a --exclude-libs libgcc_real.a --exclude-libs libatomic.a --build-id --fatal-warnings --no-undefined --gc-sections CMakeFiles/cmTC_05d93.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl "C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/x86_64-linux-android/21\\crtend_android.o"]
+    arg [C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/x86_64-linux-android/4.9.x/../../../../x86_64-linux-android/bin\\ld] ==> ignore
+    arg [--sysroot=C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znoexecstack] ==> ignore
+    arg [--warn-shared-textrel] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [--hash-style=both] ==> ignore
+    arg [--enable-new-dtags] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/system/bin/linker64] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_05d93] ==> ignore
+    arg [C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/x86_64-linux-android/21\\crtbegin_dynamic.o] ==> ignore
+    arg [-LC:\\Users\\DUYTHA~1\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\lib64\\clang\\9.0.9\\lib\\linux\\x86_64] ==> dir [C:\\Users\\DUYTHA~1\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\lib64\\clang\\9.0.9\\lib\\linux\\x86_64]
+    arg [-LC:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/x86_64-linux-android/4.9.x] ==> dir [C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/x86_64-linux-android/4.9.x]
+    arg [-LC:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/x86_64-linux-android/4.9.x/../../../../x86_64-linux-android/lib/../lib64] ==> dir [C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/x86_64-linux-android/4.9.x/../../../../x86_64-linux-android/lib/../lib64]
+    arg [-LC:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/x86_64-linux-android/21] ==> dir [C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/x86_64-linux-android/21]
+    arg [-LC:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/x86_64-linux-android] ==> dir [C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/x86_64-linux-android]
+    arg [-LC:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/x86_64-linux-android/4.9.x/../../../../x86_64-linux-android/lib] ==> dir [C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/x86_64-linux-android/4.9.x/../../../../x86_64-linux-android/lib]
+    arg [-LC:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib] ==> dir [C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib]
+    arg [--exclude-libs] ==> ignore
+    arg [libgcc.a] ==> ignore
+    arg [--exclude-libs] ==> ignore
+    arg [libgcc_real.a] ==> ignore
+    arg [--exclude-libs] ==> ignore
+    arg [libatomic.a] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--fatal-warnings] ==> ignore
+    arg [--no-undefined] ==> ignore
+    arg [--gc-sections] ==> ignore
+    arg [CMakeFiles/cmTC_05d93.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [-ldl] ==> lib [dl]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-ldl] ==> lib [dl]
+    arg [C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/x86_64-linux-android/21\\crtend_android.o] ==> ignore
+  collapse library dir [C:\\Users\\DUYTHA~1\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\lib64\\clang\\9.0.9\\lib\\linux\\x86_64] ==> [C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/9.0.9/lib/linux/x86_64]
+  collapse library dir [C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/x86_64-linux-android/4.9.x] ==> [C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/x86_64-linux-android/4.9.x]
+  collapse library dir [C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/x86_64-linux-android/4.9.x/../../../../x86_64-linux-android/lib/../lib64] ==> [C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/x86_64-linux-android/lib64]
+  collapse library dir [C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/x86_64-linux-android/21] ==> [C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/x86_64-linux-android/21]
+  collapse library dir [C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/x86_64-linux-android] ==> [C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/x86_64-linux-android]
+  collapse library dir [C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/x86_64-linux-android/4.9.x/../../../../x86_64-linux-android/lib] ==> [C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/x86_64-linux-android/lib]
+  collapse library dir [C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib] ==> [C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib]
+  implicit libs: [gcc;dl;c;gcc;dl]
+  implicit dirs: [C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/9.0.9/lib/linux/x86_64;C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/x86_64-linux-android/4.9.x;C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/x86_64-linux-android/lib64;C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/x86_64-linux-android/21;C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/x86_64-linux-android;C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/x86_64-linux-android/lib;C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib]
+  implicit fwks: []
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_1fbef && [1/2] Building CXX object CMakeFiles/cmTC_1fbef.dir/CMakeCXXCompilerABI.cpp.o
+Android (7019983 based on r365631c3) clang version 9.0.9 (https://android.googlesource.com/toolchain/llvm-project a2a1e703c0edb03ba29944e529ccbf457742737b) (based on LLVM 9.0.9svn)
+Target: x86_64-none-linux-android21
+Thread model: posix
+InstalledDir: C:\Users\DUYTHA~1\AppData\Local\Android\Sdk\ndk\21.4.7075529\toolchains\llvm\prebuilt\windows-x86_64\bin
+Found candidate GCC installation: C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/i686-linux-android\4.9.x
+Found candidate GCC installation: C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/x86_64-linux-android\4.9.x
+Selected GCC installation: C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/x86_64-linux-android/4.9.x
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ "C:\\Users\\DUYTHA~1\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe" -cc1 -triple x86_64-none-linux-android21 -emit-obj -mrelax-all -mnoexecstack -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mthread-model posix -mdisable-fp-elim -masm-verbose -mconstructor-aliases -munwind-tables -fuse-init-array -target-cpu x86-64 -target-feature +sse4.2 -target-feature +popcnt -target-feature +cx16 -dwarf-column-info -debug-info-kind=limited -dwarf-version=4 -debugger-tuning=gdb -v -ffunction-sections -fdata-sections -coverage-notes-file "C:\\Users\\Duy Thanh\\Downloads\\Compressed\\Pinball-on-Android\\app\\.cxx\\RelWithDebInfo\\2b3p5t06\\x86_64\\CMakeFiles\\CMakeTmp\\CMakeFiles/cmTC_1fbef.dir/CMakeCXXCompilerABI.cpp.gcno" -resource-dir "C:\\Users\\DUYTHA~1\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\lib64\\clang\\9.0.9" -dependency-file "CMakeFiles\\cmTC_1fbef.dir\\CMakeCXXCompilerABI.cpp.o.d" -sys-header-deps -MT CMakeFiles/cmTC_1fbef.dir/CMakeCXXCompilerABI.cpp.o -D ANDROID -D _FORTIFY_SOURCE=2 -isysroot "C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot" -internal-isystem "C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1" -internal-isystem "C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/local/include" -internal-isystem "C:\\Users\\DUYTHA~1\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\lib64\\clang\\9.0.9\\include" -internal-externc-isystem "C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/x86_64-linux-android" -internal-externc-isystem "C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/include" -internal-externc-isystem "C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include" -Wformat -std=gnu++11 -fdeprecated-macro -fdebug-compilation-dir "C:\\Users\\Duy Thanh\\Downloads\\Compressed\\Pinball-on-Android\\app\\.cxx\\RelWithDebInfo\\2b3p5t06\\x86_64\\CMakeFiles\\CMakeTmp" -ferror-limit 19 -fmessage-length 0 -stack-protector 2 -fobjc-runtime=gcc -fcxx-exceptions -fexceptions -fdiagnostics-show-option -o CMakeFiles/cmTC_1fbef.dir/CMakeCXXCompilerABI.cpp.o -x c++ "C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/share/cmake-3.18/Modules/CMakeCXXCompilerABI.cpp"
+clang -cc1 version 9.0.9 based upon LLVM 9.0.9svn default target x86_64-w64-windows-gnu
+ignoring nonexistent directory "C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1
+ C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/local/include
+ C:\Users\DUYTHA~1\AppData\Local\Android\Sdk\ndk\21.4.7075529\toolchains\llvm\prebuilt\windows-x86_64\lib64\clang\9.0.9\include
+ C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/x86_64-linux-android
+ C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include
+End of search list.
+[2/2] Linking CXX executable cmTC_1fbef
+Android (7019983 based on r365631c3) clang version 9.0.9 (https://android.googlesource.com/toolchain/llvm-project a2a1e703c0edb03ba29944e529ccbf457742737b) (based on LLVM 9.0.9svn)
+Target: x86_64-none-linux-android21
+Thread model: posix
+InstalledDir: C:\Users\DUYTHA~1\AppData\Local\Android\Sdk\ndk\21.4.7075529\toolchains\llvm\prebuilt\windows-x86_64\bin
+Found candidate GCC installation: C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/i686-linux-android\4.9.x
+Found candidate GCC installation: C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/x86_64-linux-android\4.9.x
+Selected GCC installation: C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/x86_64-linux-android/4.9.x
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ "C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/x86_64-linux-android/4.9.x/../../../../x86_64-linux-android/bin\\ld" "--sysroot=C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot" -pie -z noexecstack --warn-shared-textrel -z now -z relro --hash-style=both --enable-new-dtags --eh-frame-hdr -m elf_x86_64 -dynamic-linker /system/bin/linker64 -o cmTC_1fbef "C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/x86_64-linux-android/21\\crtbegin_dynamic.o" "-LC:\\Users\\DUYTHA~1\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\lib64\\clang\\9.0.9\\lib\\linux\\x86_64" "-LC:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/x86_64-linux-android/4.9.x" "-LC:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/x86_64-linux-android/4.9.x/../../../../x86_64-linux-android/lib/../lib64" "-LC:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/x86_64-linux-android/21" "-LC:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/x86_64-linux-android" "-LC:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/x86_64-linux-android/4.9.x/../../../../x86_64-linux-android/lib" "-LC:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib" --exclude-libs libgcc.a --exclude-libs libgcc_real.a --exclude-libs libatomic.a --build-id --fatal-warnings --no-undefined --gc-sections CMakeFiles/cmTC_1fbef.dir/CMakeCXXCompilerABI.cpp.o -Bstatic -lc++ -Bdynamic -lm -lgcc -ldl -lc -lgcc -ldl "C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/x86_64-linux-android/21\\crtend_android.o"
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1]
+    add: [C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/local/include]
+    add: [C:/Users/DUYTHA~1/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/9.0.9/include]
+    add: [C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/x86_64-linux-android]
+    add: [C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include]
+  end of search list found
+  collapse include dir [C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1] ==> [C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1]
+  collapse include dir [C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/local/include] ==> [C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/local/include]
+  collapse include dir [C:/Users/DUYTHA~1/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/9.0.9/include] ==> [C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/9.0.9/include]
+  collapse include dir [C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/x86_64-linux-android] ==> [C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/x86_64-linux-android]
+  collapse include dir [C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include] ==> [C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include]
+  implicit include dirs: [C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1;C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/local/include;C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/9.0.9/include;C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/x86_64-linux-android;C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(x86_64-linux-android-ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_1fbef && [1/2] Building CXX object CMakeFiles/cmTC_1fbef.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [Android (7019983 based on r365631c3) clang version 9.0.9 (https://android.googlesource.com/toolchain/llvm-project a2a1e703c0edb03ba29944e529ccbf457742737b) (based on LLVM 9.0.9svn)]
+  ignore line: [Target: x86_64-none-linux-android21]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: C:\Users\DUYTHA~1\AppData\Local\Android\Sdk\ndk\21.4.7075529\toolchains\llvm\prebuilt\windows-x86_64\bin]
+  ignore line: [Found candidate GCC installation: C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/i686-linux-android\4.9.x]
+  ignore line: [Found candidate GCC installation: C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/x86_64-linux-android\4.9.x]
+  ignore line: [Selected GCC installation: C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/x86_64-linux-android/4.9.x]
+  ignore line: [Candidate multilib: .]
+  ignore line: [@m64]
+  ignore line: [Selected multilib: .]
+  ignore line: [@m64]
+  ignore line: [ "C:\\Users\\DUYTHA~1\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe" -cc1 -triple x86_64-none-linux-android21 -emit-obj -mrelax-all -mnoexecstack -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mthread-model posix -mdisable-fp-elim -masm-verbose -mconstructor-aliases -munwind-tables -fuse-init-array -target-cpu x86-64 -target-feature +sse4.2 -target-feature +popcnt -target-feature +cx16 -dwarf-column-info -debug-info-kind=limited -dwarf-version=4 -debugger-tuning=gdb -v -ffunction-sections -fdata-sections -coverage-notes-file "C:\\Users\\Duy Thanh\\Downloads\\Compressed\\Pinball-on-Android\\app\\.cxx\\RelWithDebInfo\\2b3p5t06\\x86_64\\CMakeFiles\\CMakeTmp\\CMakeFiles/cmTC_1fbef.dir/CMakeCXXCompilerABI.cpp.gcno" -resource-dir "C:\\Users\\DUYTHA~1\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\lib64\\clang\\9.0.9" -dependency-file "CMakeFiles\\cmTC_1fbef.dir\\CMakeCXXCompilerABI.cpp.o.d" -sys-header-deps -MT CMakeFiles/cmTC_1fbef.dir/CMakeCXXCompilerABI.cpp.o -D ANDROID -D _FORTIFY_SOURCE=2 -isysroot "C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot" -internal-isystem "C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1" -internal-isystem "C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/local/include" -internal-isystem "C:\\Users\\DUYTHA~1\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\lib64\\clang\\9.0.9\\include" -internal-externc-isystem "C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/x86_64-linux-android" -internal-externc-isystem "C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/include" -internal-externc-isystem "C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include" -Wformat -std=gnu++11 -fdeprecated-macro -fdebug-compilation-dir "C:\\Users\\Duy Thanh\\Downloads\\Compressed\\Pinball-on-Android\\app\\.cxx\\RelWithDebInfo\\2b3p5t06\\x86_64\\CMakeFiles\\CMakeTmp" -ferror-limit 19 -fmessage-length 0 -stack-protector 2 -fobjc-runtime=gcc -fcxx-exceptions -fexceptions -fdiagnostics-show-option -o CMakeFiles/cmTC_1fbef.dir/CMakeCXXCompilerABI.cpp.o -x c++ "C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/share/cmake-3.18/Modules/CMakeCXXCompilerABI.cpp"]
+  ignore line: [clang -cc1 version 9.0.9 based upon LLVM 9.0.9svn default target x86_64-w64-windows-gnu]
+  ignore line: [ignoring nonexistent directory "C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1]
+  ignore line: [ C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/local/include]
+  ignore line: [ C:\Users\DUYTHA~1\AppData\Local\Android\Sdk\ndk\21.4.7075529\toolchains\llvm\prebuilt\windows-x86_64\lib64\clang\9.0.9\include]
+  ignore line: [ C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/x86_64-linux-android]
+  ignore line: [ C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include]
+  ignore line: [End of search list.]
+  ignore line: [[2/2] Linking CXX executable cmTC_1fbef]
+  ignore line: [Android (7019983 based on r365631c3) clang version 9.0.9 (https://android.googlesource.com/toolchain/llvm-project a2a1e703c0edb03ba29944e529ccbf457742737b) (based on LLVM 9.0.9svn)]
+  ignore line: [Target: x86_64-none-linux-android21]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: C:\Users\DUYTHA~1\AppData\Local\Android\Sdk\ndk\21.4.7075529\toolchains\llvm\prebuilt\windows-x86_64\bin]
+  ignore line: [Found candidate GCC installation: C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/i686-linux-android\4.9.x]
+  ignore line: [Found candidate GCC installation: C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/x86_64-linux-android\4.9.x]
+  ignore line: [Selected GCC installation: C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/x86_64-linux-android/4.9.x]
+  ignore line: [Candidate multilib: .]
+  ignore line: [@m64]
+  ignore line: [Selected multilib: .]
+  ignore line: [@m64]
+  link line: [ "C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/x86_64-linux-android/4.9.x/../../../../x86_64-linux-android/bin\\ld" "--sysroot=C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot" -pie -z noexecstack --warn-shared-textrel -z now -z relro --hash-style=both --enable-new-dtags --eh-frame-hdr -m elf_x86_64 -dynamic-linker /system/bin/linker64 -o cmTC_1fbef "C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/x86_64-linux-android/21\\crtbegin_dynamic.o" "-LC:\\Users\\DUYTHA~1\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\lib64\\clang\\9.0.9\\lib\\linux\\x86_64" "-LC:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/x86_64-linux-android/4.9.x" "-LC:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/x86_64-linux-android/4.9.x/../../../../x86_64-linux-android/lib/../lib64" "-LC:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/x86_64-linux-android/21" "-LC:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/x86_64-linux-android" "-LC:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/x86_64-linux-android/4.9.x/../../../../x86_64-linux-android/lib" "-LC:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib" --exclude-libs libgcc.a --exclude-libs libgcc_real.a --exclude-libs libatomic.a --build-id --fatal-warnings --no-undefined --gc-sections CMakeFiles/cmTC_1fbef.dir/CMakeCXXCompilerABI.cpp.o -Bstatic -lc++ -Bdynamic -lm -lgcc -ldl -lc -lgcc -ldl "C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/x86_64-linux-android/21\\crtend_android.o"]
+    arg [C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/x86_64-linux-android/4.9.x/../../../../x86_64-linux-android/bin\\ld] ==> ignore
+    arg [--sysroot=C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znoexecstack] ==> ignore
+    arg [--warn-shared-textrel] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [--hash-style=both] ==> ignore
+    arg [--enable-new-dtags] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/system/bin/linker64] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_1fbef] ==> ignore
+    arg [C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/x86_64-linux-android/21\\crtbegin_dynamic.o] ==> ignore
+    arg [-LC:\\Users\\DUYTHA~1\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\lib64\\clang\\9.0.9\\lib\\linux\\x86_64] ==> dir [C:\\Users\\DUYTHA~1\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\lib64\\clang\\9.0.9\\lib\\linux\\x86_64]
+    arg [-LC:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/x86_64-linux-android/4.9.x] ==> dir [C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/x86_64-linux-android/4.9.x]
+    arg [-LC:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/x86_64-linux-android/4.9.x/../../../../x86_64-linux-android/lib/../lib64] ==> dir [C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/x86_64-linux-android/4.9.x/../../../../x86_64-linux-android/lib/../lib64]
+    arg [-LC:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/x86_64-linux-android/21] ==> dir [C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/x86_64-linux-android/21]
+    arg [-LC:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/x86_64-linux-android] ==> dir [C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/x86_64-linux-android]
+    arg [-LC:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/x86_64-linux-android/4.9.x/../../../../x86_64-linux-android/lib] ==> dir [C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/x86_64-linux-android/4.9.x/../../../../x86_64-linux-android/lib]
+    arg [-LC:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib] ==> dir [C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib]
+    arg [--exclude-libs] ==> ignore
+    arg [libgcc.a] ==> ignore
+    arg [--exclude-libs] ==> ignore
+    arg [libgcc_real.a] ==> ignore
+    arg [--exclude-libs] ==> ignore
+    arg [libatomic.a] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--fatal-warnings] ==> ignore
+    arg [--no-undefined] ==> ignore
+    arg [--gc-sections] ==> ignore
+    arg [CMakeFiles/cmTC_1fbef.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-Bstatic] ==> ignore
+    arg [-lc++] ==> lib [c++]
+    arg [-Bdynamic] ==> ignore
+    arg [-lm] ==> lib [m]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-ldl] ==> lib [dl]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-ldl] ==> lib [dl]
+    arg [C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/x86_64-linux-android/21\\crtend_android.o] ==> ignore
+  collapse library dir [C:\\Users\\DUYTHA~1\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\lib64\\clang\\9.0.9\\lib\\linux\\x86_64] ==> [C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/9.0.9/lib/linux/x86_64]
+  collapse library dir [C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/x86_64-linux-android/4.9.x] ==> [C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/x86_64-linux-android/4.9.x]
+  collapse library dir [C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/x86_64-linux-android/4.9.x/../../../../x86_64-linux-android/lib/../lib64] ==> [C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/x86_64-linux-android/lib64]
+  collapse library dir [C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/x86_64-linux-android/21] ==> [C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/x86_64-linux-android/21]
+  collapse library dir [C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/x86_64-linux-android] ==> [C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/x86_64-linux-android]
+  collapse library dir [C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/x86_64-linux-android/4.9.x/../../../../x86_64-linux-android/lib] ==> [C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/x86_64-linux-android/lib]
+  collapse library dir [C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib] ==> [C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib]
+  implicit libs: [c++;m;gcc;dl;c;gcc;dl]
+  implicit dirs: [C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/9.0.9/lib/linux/x86_64;C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/x86_64-linux-android/4.9.x;C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/x86_64-linux-android/lib64;C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/x86_64-linux-android/21;C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/x86_64-linux-android;C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/x86_64-linux-android/lib;C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib]
+  implicit fwks: []
+
+
+Performing C SOURCE FILE Test HAVE_GCC_WALL succeeded with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_08754 && [1/2] Building C object CMakeFiles/cmTC_08754.dir/src.c.o
+[2/2] Linking C executable cmTC_08754
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAVE_GCC_NO_STRICT_ALIASING succeeded with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_3b9fd && [1/2] Building C object CMakeFiles/cmTC_3b9fd.dir/src.c.o
+[2/2] Linking C executable cmTC_3b9fd
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAVE_GCC_WDECLARATION_AFTER_STATEMENT succeeded with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_a1660 && [1/2] Building C object CMakeFiles/cmTC_a1660.dir/src.c.o
+[2/2] Linking C executable cmTC_a1660
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAVE_GCC_WERROR_DECLARATION_AFTER_STATEMENT succeeded with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_7b272 && [1/2] Building C object CMakeFiles/cmTC_7b272.dir/src.c.o
+[2/2] Linking C executable cmTC_7b272
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAVE_GCC_ATOMICS succeeded with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_d8294 && [1/2] Building C object CMakeFiles/cmTC_d8294.dir/src.c.o
+[2/2] Linking C executable cmTC_d8294
+
+
+Source file was:
+int main(int argc, char **argv) {
+        int a;
+        void *x, *y, *z;
+        __sync_lock_test_and_set(&a, 4);
+        __sync_lock_test_and_set(&x, y);
+        __sync_fetch_and_add(&a, 1);
+        __sync_bool_compare_and_swap(&a, 5, 10);
+        __sync_bool_compare_and_swap(&x, y, z); }
+Performing C SOURCE FILE Test HAVE_GCC_FVISIBILITY succeeded with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_3daa3 && [1/2] Building C object CMakeFiles/cmTC_3daa3.dir/src.c.o
+[2/2] Linking C executable cmTC_3daa3
+
+
+Source file was:
+
+      #if !defined(__GNUC__) || __GNUC__ < 4
+      #error SDL only uses visibility attributes in GCC 4 or newer
+      #endif
+      int main(int argc, char **argv) {}
+Performing C SOURCE FILE Test HAVE_GCC_WSHADOW succeeded with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_cdc49 && [1/2] Building C object CMakeFiles/cmTC_cdc49.dir/src.c.o
+[2/2] Linking C executable cmTC_cdc49
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAVE_NO_UNDEFINED succeeded with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_b41a6 && [1/2] Building C object CMakeFiles/cmTC_b41a6.dir/src.c.o
+clang: warning: -Wl,--no-undefined: 'linker' input unused [-Wunused-command-line-argument]
+[2/2] Linking C executable cmTC_b41a6
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAVE_3DNOW succeeded with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_b5fd5 && [1/2] Building C object CMakeFiles/cmTC_b5fd5.dir/src.c.o
+[2/2] Linking C executable cmTC_b5fd5
+
+
+Source file was:
+
+          #include <mm3dnow.h>
+          #ifndef __3dNOW__
+          #error Assembler CPP flag not enabled
+          #endif
+          int main(int argc, char **argv) {
+            void *p = 0;
+            _m_prefetch(p);
+          }
+Performing C SOURCE FILE Test HAVE_SSE succeeded with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_8dabd && [1/2] Building C object CMakeFiles/cmTC_8dabd.dir/src.c.o
+[2/2] Linking C executable cmTC_8dabd
+
+
+Source file was:
+
+          #ifdef __MINGW32__
+          #include <_mingw.h>
+          #ifdef __MINGW64_VERSION_MAJOR
+          #include <intrin.h>
+          #else
+          #include <xmmintrin.h>
+          #endif
+          #else
+          #include <xmmintrin.h>
+          #endif
+          #ifndef __SSE__
+          #error Assembler CPP flag not enabled
+          #endif
+          int main(int argc, char **argv) { }
+Performing C SOURCE FILE Test HAVE_SSE2 succeeded with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_d9a72 && [1/2] Building C object CMakeFiles/cmTC_d9a72.dir/src.c.o
+[2/2] Linking C executable cmTC_d9a72
+
+
+Source file was:
+
+          #ifdef __MINGW32__
+          #include <_mingw.h>
+          #ifdef __MINGW64_VERSION_MAJOR
+          #include <intrin.h>
+          #else
+          #include <emmintrin.h>
+          #endif
+          #else
+          #include <emmintrin.h>
+          #endif
+          #ifndef __SSE2__
+          #error Assembler CPP flag not enabled
+          #endif
+          int main(int argc, char **argv) { }
+Performing C SOURCE FILE Test HAVE_SSE3 succeeded with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_80ddf && [1/2] Building C object CMakeFiles/cmTC_80ddf.dir/src.c.o
+[2/2] Linking C executable cmTC_80ddf
+
+
+Source file was:
+
+          #ifdef __MINGW32__
+          #include <_mingw.h>
+          #ifdef __MINGW64_VERSION_MAJOR
+          #include <intrin.h>
+          #else
+          #include <pmmintrin.h>
+          #endif
+          #else
+          #include <pmmintrin.h>
+          #endif
+          #ifndef __SSE3__
+          #error Assembler CPP flag not enabled
+          #endif
+          int main(int argc, char **argv) { }
+Determining if the include file immintrin.h exists passed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_11337 && [1/2] Building C object CMakeFiles/cmTC_11337.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_11337
+
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_1886d && [1/2] Building C object CMakeFiles/cmTC_1886d.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_1886d
+
+
+
+Determining if the include file stdio.h exists passed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_ac1cf && [1/2] Building C object CMakeFiles/cmTC_ac1cf.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_ac1cf
+
+
+
+Determining if the include file stdlib.h exists passed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_53c87 && [1/2] Building C object CMakeFiles/cmTC_53c87.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_53c87
+
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_39bc9 && [1/2] Building C object CMakeFiles/cmTC_39bc9.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_39bc9
+
+
+
+Determining if the include file stdarg.h exists passed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_ad8d4 && [1/2] Building C object CMakeFiles/cmTC_ad8d4.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_ad8d4
+
+
+
+Determining if the include file malloc.h exists passed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_d5cb1 && [1/2] Building C object CMakeFiles/cmTC_d5cb1.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_d5cb1
+
+
+
+Determining if the include file memory.h exists passed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_b8cd0 && [1/2] Building C object CMakeFiles/cmTC_b8cd0.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_b8cd0
+
+
+
+Determining if the include file string.h exists passed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_7206e && [1/2] Building C object CMakeFiles/cmTC_7206e.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_7206e
+
+
+
+Determining if the include file limits.h exists passed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_32c21 && [1/2] Building C object CMakeFiles/cmTC_32c21.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_32c21
+
+
+
+Determining if the include file strings.h exists passed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_1b2da && [1/2] Building C object CMakeFiles/cmTC_1b2da.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_1b2da
+
+
+
+Determining if the include file wchar.h exists passed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_79b55 && [1/2] Building C object CMakeFiles/cmTC_79b55.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_79b55
+
+
+
+Determining if the include file inttypes.h exists passed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_88020 && [1/2] Building C object CMakeFiles/cmTC_88020.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_88020
+
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_4e954 && [1/2] Building C object CMakeFiles/cmTC_4e954.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_4e954
+
+
+
+Determining if the include file ctype.h exists passed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_62d13 && [1/2] Building C object CMakeFiles/cmTC_62d13.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_62d13
+
+
+
+Determining if the include file math.h exists passed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_940d0 && [1/2] Building C object CMakeFiles/cmTC_940d0.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_940d0
+
+
+
+Determining if the include file iconv.h exists passed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_122e8 && [1/2] Building C object CMakeFiles/cmTC_122e8.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_122e8
+
+
+
+Determining if the include file signal.h exists passed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_16991 && [1/2] Building C object CMakeFiles/cmTC_16991.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_16991
+
+
+
+Determining if files stddef.h;stdarg.h;stdlib.h;string.h;stdio.h;wchar.h;float.h exist passed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_b4bdd && [1/2] Building C object CMakeFiles/cmTC_b4bdd.dir/STDC_HEADERS.c.o
+[2/2] Linking C executable cmTC_b4bdd
+
+
+
+Determining size of size_t passed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_16a5b && [1/2] Building C object CMakeFiles/cmTC_16a5b.dir/SIZEOF_SIZE_T.c.o
+[2/2] Linking C executable cmTC_16a5b
+
+
+
+Determining if the M_PI exist passed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_aea2d && [1/2] Building C object CMakeFiles/cmTC_aea2d.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_aea2d
+
+
+File C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef M_PI
+  return ((int*)(&M_PI))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C SOURCE FILE Test HAVE_MPROTECT succeeded with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_1aeba && [1/2] Building C object CMakeFiles/cmTC_1aeba.dir/src.c.o
+[2/2] Linking C executable cmTC_1aeba
+
+
+Source file was:
+#include <sys/types.h>
+                             #include <sys/mman.h>
+                             int main() { }
+Determining if the strtod exist passed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_da301 && [1/2] Building C object CMakeFiles/cmTC_da301.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_da301
+
+
+File C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strtod
+  return ((int*)(&strtod))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the malloc exist passed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_d3c5c && [1/2] Building C object CMakeFiles/cmTC_d3c5c.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_d3c5c
+
+
+File C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef malloc
+  return ((int*)(&malloc))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the calloc exist passed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_74355 && [1/2] Building C object CMakeFiles/cmTC_74355.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_74355
+
+
+File C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef calloc
+  return ((int*)(&calloc))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the realloc exist passed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_87bc1 && [1/2] Building C object CMakeFiles/cmTC_87bc1.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_87bc1
+
+
+File C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef realloc
+  return ((int*)(&realloc))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the free exist passed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_d6e16 && [1/2] Building C object CMakeFiles/cmTC_d6e16.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_d6e16
+
+
+File C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef free
+  return ((int*)(&free))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the getenv exist passed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_a9fc1 && [1/2] Building C object CMakeFiles/cmTC_a9fc1.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_a9fc1
+
+
+File C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getenv
+  return ((int*)(&getenv))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the setenv exist passed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_e121a && [1/2] Building C object CMakeFiles/cmTC_e121a.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_e121a
+
+
+File C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef setenv
+  return ((int*)(&setenv))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the putenv exist passed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_ccaca && [1/2] Building C object CMakeFiles/cmTC_ccaca.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_ccaca
+
+
+File C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef putenv
+  return ((int*)(&putenv))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the unsetenv exist passed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_0dad2 && [1/2] Building C object CMakeFiles/cmTC_0dad2.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_0dad2
+
+
+File C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef unsetenv
+  return ((int*)(&unsetenv))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the qsort exist passed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_0ffdd && [1/2] Building C object CMakeFiles/cmTC_0ffdd.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_0ffdd
+
+
+File C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef qsort
+  return ((int*)(&qsort))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the abs exist passed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_b9030 && [1/2] Building C object CMakeFiles/cmTC_b9030.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_b9030
+
+
+File C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef abs
+  return ((int*)(&abs))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the memset exist passed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_ef091 && [1/2] Building C object CMakeFiles/cmTC_ef091.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_ef091
+
+
+File C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef memset
+  return ((int*)(&memset))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the memcpy exist passed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_8871d && [1/2] Building C object CMakeFiles/cmTC_8871d.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_8871d
+
+
+File C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef memcpy
+  return ((int*)(&memcpy))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the memmove exist passed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_64168 && [1/2] Building C object CMakeFiles/cmTC_64168.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_64168
+
+
+File C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef memmove
+  return ((int*)(&memmove))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the memcmp exist passed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_c1af1 && [1/2] Building C object CMakeFiles/cmTC_c1af1.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_c1af1
+
+
+File C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef memcmp
+  return ((int*)(&memcmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strlen exist passed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_d313a && [1/2] Building C object CMakeFiles/cmTC_d313a.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_d313a
+
+
+File C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strlen
+  return ((int*)(&strlen))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strlcpy exist passed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_8b71f && [1/2] Building C object CMakeFiles/cmTC_8b71f.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_8b71f
+
+
+File C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strlcpy
+  return ((int*)(&strlcpy))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strlcat exist passed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_34b79 && [1/2] Building C object CMakeFiles/cmTC_34b79.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_34b79
+
+
+File C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strlcat
+  return ((int*)(&strlcat))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strchr exist passed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_d3ef2 && [1/2] Building C object CMakeFiles/cmTC_d3ef2.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_d3ef2
+
+
+File C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strchr
+  return ((int*)(&strchr))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strrchr exist passed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_7f0f8 && [1/2] Building C object CMakeFiles/cmTC_7f0f8.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_7f0f8
+
+
+File C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strrchr
+  return ((int*)(&strrchr))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strstr exist passed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_703fa && [1/2] Building C object CMakeFiles/cmTC_703fa.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_703fa
+
+
+File C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strstr
+  return ((int*)(&strstr))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strtok_r exist passed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_a8888 && [1/2] Building C object CMakeFiles/cmTC_a8888.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_a8888
+
+
+File C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strtok_r
+  return ((int*)(&strtok_r))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strtol exist passed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_fccfd && [1/2] Building C object CMakeFiles/cmTC_fccfd.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_fccfd
+
+
+File C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strtol
+  return ((int*)(&strtol))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strtoul exist passed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_58914 && [1/2] Building C object CMakeFiles/cmTC_58914.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_58914
+
+
+File C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strtoul
+  return ((int*)(&strtoul))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strtoll exist passed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_4499f && [1/2] Building C object CMakeFiles/cmTC_4499f.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_4499f
+
+
+File C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strtoll
+  return ((int*)(&strtoll))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strtoull exist passed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_02d09 && [1/2] Building C object CMakeFiles/cmTC_02d09.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_02d09
+
+
+File C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strtoull
+  return ((int*)(&strtoull))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the atoi exist passed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_94c5c && [1/2] Building C object CMakeFiles/cmTC_94c5c.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_94c5c
+
+
+File C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef atoi
+  return ((int*)(&atoi))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the atof exist passed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_91bd9 && [1/2] Building C object CMakeFiles/cmTC_91bd9.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_91bd9
+
+
+File C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef atof
+  return ((int*)(&atof))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strcmp exist passed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_c10c2 && [1/2] Building C object CMakeFiles/cmTC_c10c2.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_c10c2
+
+
+File C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strcmp
+  return ((int*)(&strcmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strncmp exist passed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_000ba && [1/2] Building C object CMakeFiles/cmTC_000ba.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_000ba
+
+
+File C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strncmp
+  return ((int*)(&strncmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strcasecmp exist passed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_baf15 && [1/2] Building C object CMakeFiles/cmTC_baf15.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_baf15
+
+
+File C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strcasecmp
+  return ((int*)(&strcasecmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strncasecmp exist passed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_9213d && [1/2] Building C object CMakeFiles/cmTC_9213d.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_9213d
+
+
+File C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strncasecmp
+  return ((int*)(&strncasecmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the wcscmp exist passed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_76a9e && [1/2] Building C object CMakeFiles/cmTC_76a9e.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_76a9e
+
+
+File C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef wcscmp
+  return ((int*)(&wcscmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the wcsdup exist passed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_f915c && [1/2] Building C object CMakeFiles/cmTC_f915c.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_f915c
+
+
+File C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef wcsdup
+  return ((int*)(&wcsdup))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the wcslcat exist passed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_57d8d && [1/2] Building C object CMakeFiles/cmTC_57d8d.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_57d8d
+
+
+File C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef wcslcat
+  return ((int*)(&wcslcat))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the wcslcpy exist passed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_2ed75 && [1/2] Building C object CMakeFiles/cmTC_2ed75.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_2ed75
+
+
+File C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef wcslcpy
+  return ((int*)(&wcslcpy))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the wcslen exist passed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_f29d4 && [1/2] Building C object CMakeFiles/cmTC_f29d4.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_f29d4
+
+
+File C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef wcslen
+  return ((int*)(&wcslen))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the wcsncmp exist passed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_1c866 && [1/2] Building C object CMakeFiles/cmTC_1c866.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_1c866
+
+
+File C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef wcsncmp
+  return ((int*)(&wcsncmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the wcsstr exist passed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_3b75a && [1/2] Building C object CMakeFiles/cmTC_3b75a.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_3b75a
+
+
+File C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef wcsstr
+  return ((int*)(&wcsstr))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the wcscasecmp exist passed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_2f645 && [1/2] Building C object CMakeFiles/cmTC_2f645.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_2f645
+
+
+File C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef wcscasecmp
+  return ((int*)(&wcscasecmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the wcsncasecmp exist passed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_6fc39 && [1/2] Building C object CMakeFiles/cmTC_6fc39.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_6fc39
+
+
+File C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef wcsncasecmp
+  return ((int*)(&wcsncasecmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the sscanf exist passed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_2fdb3 && [1/2] Building C object CMakeFiles/cmTC_2fdb3.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_2fdb3
+
+
+File C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sscanf
+  return ((int*)(&sscanf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the vsscanf exist passed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_ac810 && [1/2] Building C object CMakeFiles/cmTC_ac810.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_ac810
+
+
+File C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef vsscanf
+  return ((int*)(&vsscanf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the vsnprintf exist passed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_f27eb && [1/2] Building C object CMakeFiles/cmTC_f27eb.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_f27eb
+
+
+File C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef vsnprintf
+  return ((int*)(&vsnprintf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the fseeko exist passed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_1ddc1 && [1/2] Building C object CMakeFiles/cmTC_1ddc1.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_1ddc1
+
+
+File C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef fseeko
+  return ((int*)(&fseeko))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the _Exit exist passed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_40812 && [1/2] Building C object CMakeFiles/cmTC_40812.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_40812
+
+
+File C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _Exit
+  return ((int*)(&_Exit))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the sigaction exist passed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_eaca8 && [1/2] Building C object CMakeFiles/cmTC_eaca8.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_eaca8
+
+
+File C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <signal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sigaction
+  return ((int*)(&sigaction))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the setjmp exist passed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_2510b && [1/2] Building C object CMakeFiles/cmTC_2510b.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_2510b
+
+
+File C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <setjmp.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef setjmp
+  return ((int*)(&setjmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the nanosleep exist passed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_40c3c && [1/2] Building C object CMakeFiles/cmTC_40c3c.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_40c3c
+
+
+File C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <time.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef nanosleep
+  return ((int*)(&nanosleep))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the sysconf exist passed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_9d650 && [1/2] Building C object CMakeFiles/cmTC_9d650.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_9d650
+
+
+File C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sysconf
+  return ((int*)(&sysconf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the getauxval exist passed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_87f9d && [1/2] Building C object CMakeFiles/cmTC_87f9d.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_87f9d
+
+
+File C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/auxv.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getauxval
+  return ((int*)(&getauxval))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the poll exist passed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_a4ae4 && [1/2] Building C object CMakeFiles/cmTC_a4ae4.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_a4ae4
+
+
+File C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <poll.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef poll
+  return ((int*)(&poll))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the function pow exists in the m passed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_05ed1 && [1/2] Building C object CMakeFiles/cmTC_05ed1.dir/CheckFunctionExists.c.o
+C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/share/cmake-3.18/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'pow' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS pow
+                              ^
+C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/share/cmake-3.18/Modules/CheckFunctionExists.c:7:3: note: 'pow' is a builtin with type 'double (double, double)'
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS pow
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_05ed1
+
+
+
+Determining if the atan exist passed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_00131 && [1/2] Building C object CMakeFiles/cmTC_00131.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_00131
+
+
+File C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef atan
+  return ((int*)(&atan))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the atan2 exist passed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_911d3 && [1/2] Building C object CMakeFiles/cmTC_911d3.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_911d3
+
+
+File C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef atan2
+  return ((int*)(&atan2))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the atanf exist passed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_32a31 && [1/2] Building C object CMakeFiles/cmTC_32a31.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_32a31
+
+
+File C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef atanf
+  return ((int*)(&atanf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the atan2f exist passed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_fd0c0 && [1/2] Building C object CMakeFiles/cmTC_fd0c0.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_fd0c0
+
+
+File C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef atan2f
+  return ((int*)(&atan2f))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the ceil exist passed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_edc95 && [1/2] Building C object CMakeFiles/cmTC_edc95.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_edc95
+
+
+File C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef ceil
+  return ((int*)(&ceil))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the ceilf exist passed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_dad9c && [1/2] Building C object CMakeFiles/cmTC_dad9c.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_dad9c
+
+
+File C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef ceilf
+  return ((int*)(&ceilf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the copysign exist passed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_852fd && [1/2] Building C object CMakeFiles/cmTC_852fd.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_852fd
+
+
+File C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef copysign
+  return ((int*)(&copysign))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the copysignf exist passed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_2cf4f && [1/2] Building C object CMakeFiles/cmTC_2cf4f.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_2cf4f
+
+
+File C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef copysignf
+  return ((int*)(&copysignf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the cos exist passed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_4f9a7 && [1/2] Building C object CMakeFiles/cmTC_4f9a7.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_4f9a7
+
+
+File C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef cos
+  return ((int*)(&cos))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the cosf exist passed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_0617f && [1/2] Building C object CMakeFiles/cmTC_0617f.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_0617f
+
+
+File C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef cosf
+  return ((int*)(&cosf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the exp exist passed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_fb8fb && [1/2] Building C object CMakeFiles/cmTC_fb8fb.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_fb8fb
+
+
+File C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef exp
+  return ((int*)(&exp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the expf exist passed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_15182 && [1/2] Building C object CMakeFiles/cmTC_15182.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_15182
+
+
+File C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef expf
+  return ((int*)(&expf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the fabs exist passed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_7e8f3 && [1/2] Building C object CMakeFiles/cmTC_7e8f3.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_7e8f3
+
+
+File C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef fabs
+  return ((int*)(&fabs))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the fabsf exist passed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_cbf53 && [1/2] Building C object CMakeFiles/cmTC_cbf53.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_cbf53
+
+
+File C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef fabsf
+  return ((int*)(&fabsf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the floor exist passed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_fa3ec && [1/2] Building C object CMakeFiles/cmTC_fa3ec.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_fa3ec
+
+
+File C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef floor
+  return ((int*)(&floor))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the floorf exist passed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_c67bb && [1/2] Building C object CMakeFiles/cmTC_c67bb.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_c67bb
+
+
+File C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef floorf
+  return ((int*)(&floorf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the fmod exist passed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_f5635 && [1/2] Building C object CMakeFiles/cmTC_f5635.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_f5635
+
+
+File C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef fmod
+  return ((int*)(&fmod))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the fmodf exist passed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_3da9c && [1/2] Building C object CMakeFiles/cmTC_3da9c.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_3da9c
+
+
+File C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef fmodf
+  return ((int*)(&fmodf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the log exist passed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_0eef7 && [1/2] Building C object CMakeFiles/cmTC_0eef7.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_0eef7
+
+
+File C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef log
+  return ((int*)(&log))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the logf exist passed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_40144 && [1/2] Building C object CMakeFiles/cmTC_40144.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_40144
+
+
+File C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef logf
+  return ((int*)(&logf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the log10 exist passed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_70793 && [1/2] Building C object CMakeFiles/cmTC_70793.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_70793
+
+
+File C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef log10
+  return ((int*)(&log10))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the log10f exist passed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_7fdc2 && [1/2] Building C object CMakeFiles/cmTC_7fdc2.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_7fdc2
+
+
+File C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef log10f
+  return ((int*)(&log10f))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the lround exist passed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_31003 && [1/2] Building C object CMakeFiles/cmTC_31003.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_31003
+
+
+File C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef lround
+  return ((int*)(&lround))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the lroundf exist passed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_e9645 && [1/2] Building C object CMakeFiles/cmTC_e9645.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_e9645
+
+
+File C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef lroundf
+  return ((int*)(&lroundf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the pow exist passed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_2b7cf && [1/2] Building C object CMakeFiles/cmTC_2b7cf.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_2b7cf
+
+
+File C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pow
+  return ((int*)(&pow))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the powf exist passed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_4fab2 && [1/2] Building C object CMakeFiles/cmTC_4fab2.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_4fab2
+
+
+File C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef powf
+  return ((int*)(&powf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the round exist passed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_6fb75 && [1/2] Building C object CMakeFiles/cmTC_6fb75.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_6fb75
+
+
+File C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef round
+  return ((int*)(&round))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the roundf exist passed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_073ad && [1/2] Building C object CMakeFiles/cmTC_073ad.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_073ad
+
+
+File C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef roundf
+  return ((int*)(&roundf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the scalbn exist passed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_d962f && [1/2] Building C object CMakeFiles/cmTC_d962f.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_d962f
+
+
+File C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef scalbn
+  return ((int*)(&scalbn))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the scalbnf exist passed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_99804 && [1/2] Building C object CMakeFiles/cmTC_99804.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_99804
+
+
+File C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef scalbnf
+  return ((int*)(&scalbnf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the sin exist passed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_052ee && [1/2] Building C object CMakeFiles/cmTC_052ee.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_052ee
+
+
+File C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sin
+  return ((int*)(&sin))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the sinf exist passed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_13f0d && [1/2] Building C object CMakeFiles/cmTC_13f0d.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_13f0d
+
+
+File C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sinf
+  return ((int*)(&sinf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the sqrt exist passed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_ec3d2 && [1/2] Building C object CMakeFiles/cmTC_ec3d2.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_ec3d2
+
+
+File C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sqrt
+  return ((int*)(&sqrt))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the sqrtf exist passed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_e47a6 && [1/2] Building C object CMakeFiles/cmTC_e47a6.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_e47a6
+
+
+File C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sqrtf
+  return ((int*)(&sqrtf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the tan exist passed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_8815d && [1/2] Building C object CMakeFiles/cmTC_8815d.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_8815d
+
+
+File C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef tan
+  return ((int*)(&tan))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the tanf exist passed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_fcd24 && [1/2] Building C object CMakeFiles/cmTC_fcd24.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_fcd24
+
+
+File C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef tanf
+  return ((int*)(&tanf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the acos exist passed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_4e81e && [1/2] Building C object CMakeFiles/cmTC_4e81e.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_4e81e
+
+
+File C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef acos
+  return ((int*)(&acos))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the acosf exist passed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_bc788 && [1/2] Building C object CMakeFiles/cmTC_bc788.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_bc788
+
+
+File C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef acosf
+  return ((int*)(&acosf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the asin exist passed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_f4b9e && [1/2] Building C object CMakeFiles/cmTC_f4b9e.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_f4b9e
+
+
+File C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef asin
+  return ((int*)(&asin))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the asinf exist passed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_dbd91 && [1/2] Building C object CMakeFiles/cmTC_dbd91.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_dbd91
+
+
+File C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef asinf
+  return ((int*)(&asinf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the trunc exist passed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_8c7ae && [1/2] Building C object CMakeFiles/cmTC_8c7ae.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_8c7ae
+
+
+File C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef trunc
+  return ((int*)(&trunc))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the truncf exist passed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_1f275 && [1/2] Building C object CMakeFiles/cmTC_1f275.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_1f275
+
+
+File C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef truncf
+  return ((int*)(&truncf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the include file alloca.h exists passed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_8d671 && [1/2] Building C object CMakeFiles/cmTC_8d671.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_8d671
+
+
+
+Determining if the alloca exist passed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_faf1a && [1/2] Building C object CMakeFiles/cmTC_faf1a.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_faf1a
+
+
+File C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <alloca.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef alloca
+  return ((int*)(&alloca))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the alloca exist passed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_2ba70 && [1/2] Building C object CMakeFiles/cmTC_2ba70.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_2ba70
+
+
+File C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef alloca
+  return ((int*)(&alloca))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C SOURCE FILE Test HAVE_SA_SIGACTION succeeded with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_52f04 && [1/2] Building C object CMakeFiles/cmTC_52f04.dir/src.c.o
+[2/2] Linking C executable cmTC_52f04
+
+
+Source file was:
+
+#include <signal.h>
+
+int main()
+{
+  (void)sizeof(((struct sigaction *)0)->sa_sigaction);
+  return 0;
+}
+
+Determining if the dlopen exist passed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_8fe7a && [1/2] Building C object CMakeFiles/cmTC_8fe7a.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_8fe7a
+
+
+File C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <dlfcn.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef dlopen
+  return ((int*)(&dlopen))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C SOURCE FILE Test HAVE_ARM_MODE succeeded with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_d8a4a && [1/2] Building C object CMakeFiles/cmTC_d8a4a.dir/src.c.o
+clang: warning: argument unused during compilation: '-marm' [-Wunused-command-line-argument]
+[2/2] Linking C executable cmTC_d8a4a
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test VULKAN_PASSED_ANDROID_CHECKS succeeded with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_bb6c0 && [1/2] Building C object CMakeFiles/cmTC_bb6c0.dir/src.c.o
+[2/2] Linking C executable cmTC_bb6c0
+
+
+Source file was:
+
+    #if defined(__ARM_ARCH) && __ARM_ARCH < 7
+    #error Vulkan doesn't work on this configuration
+    #endif
+    int main()
+    {
+        return 0;
+    }
+    
+Performing C SOURCE FILE Test HAVE_PTHREADS succeeded with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_f965d && [1/2] Building C object CMakeFiles/cmTC_f965d.dir/src.c.o
+[2/2] Linking C executable cmTC_f965d
+
+
+Source file was:
+
+      #include <pthread.h>
+      int main(int argc, char** argv) {
+        pthread_attr_t type;
+        pthread_attr_init(&type);
+        return 0;
+      }
+Performing C SOURCE FILE Test HAVE_RECURSIVE_MUTEXES succeeded with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_312cf && [1/2] Building C object CMakeFiles/cmTC_312cf.dir/src.c.o
+[2/2] Linking C executable cmTC_312cf
+
+
+Source file was:
+
+        #define _GNU_SOURCE 1
+        #include <pthread.h>
+        int main(int argc, char **argv) {
+          pthread_mutexattr_t attr;
+          pthread_mutexattr_settype(&attr, PTHREAD_MUTEX_RECURSIVE);
+          return 0;
+        }
+Performing C SOURCE FILE Test HAVE_PTHREADS_SEM succeeded with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_68ab9 && [1/2] Building C object CMakeFiles/cmTC_68ab9.dir/src.c.o
+[2/2] Linking C executable cmTC_68ab9
+
+
+Source file was:
+#include <pthread.h>
+                                 #include <semaphore.h>
+                                 int main(int argc, char **argv) { return 0; }
+Performing C SOURCE FILE Test HAVE_SEM_TIMEDWAIT succeeded with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_ec58c && [1/2] Building C object CMakeFiles/cmTC_ec58c.dir/src.c.o
+[2/2] Linking C executable cmTC_ec58c
+
+
+Source file was:
+
+              #include <pthread.h>
+              #include <semaphore.h>
+              int main(int argc, char **argv) {
+                  sem_timedwait(NULL, NULL);
+                  return 0;
+              }
+Determining if files pthread.h exist passed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_33ee9 && [1/2] Building C object CMakeFiles/cmTC_33ee9.dir/HAVE_PTHREAD_H.c.o
+[2/2] Linking C executable cmTC_33ee9
+
+
+
+Determining if the pthread_setname_np exist passed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_0fe34 && [1/2] Building C object CMakeFiles/cmTC_0fe34.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_0fe34
+
+
+File C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_setname_np
+  return ((int*)(&pthread_setname_np))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining size of unsigned short passed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_58488 && [1/2] Building C object CMakeFiles/cmTC_58488.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o
+[2/2] Linking C executable cmTC_58488
+
+
+
+Determining if the system is big endian passed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_682c3 && [1/2] Building C object CMakeFiles/cmTC_682c3.dir/TestEndianess.c.o
+[2/2] Linking C executable cmTC_682c3
+
+
+TestEndianess.c:
+/* A 16 bit integer is required. */
+typedef unsigned short cmakeint16;
+
+/* On a little endian machine, these 16bit ints will give "THIS IS LITTLE ENDIAN."
+   On a big endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_little[] =  {0x4854, 0x5349, 0x4920, 0x2053, 0x494c, 0x5454, 0x454c, 0x4520, 0x444e, 0x4149, 0x2e4e, 0x0000};
+
+/* on a big endian machine, these 16bit ints will give "THIS IS BIG ENDIAN."
+   On a little endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_big[] =     {0x5448, 0x4953, 0x2049, 0x5320, 0x4249, 0x4720, 0x454e, 0x4449, 0x414e, 0x2e2e, 0x0000};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_little[argc];
+  require += info_big[argc];
+  (void)argv;
+  return require;
+}
+
+
+Performing C SOURCE FILE Test HAVE_VISIBILITY_DEFAULT succeeded with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_95af3 && [1/2] Building C object CMakeFiles/cmTC_95af3.dir/src.c.o
+[2/2] Linking C executable cmTC_95af3
+
+
+Source file was:
+int foo(void) __attribute__((visibility("default")));
+                             int main(void) {return 0;}
+Performing C SOURCE FILE Test HAVE_VISIBILITY_HIDDEN succeeded with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_b489f && [1/2] Building C object CMakeFiles/cmTC_b489f.dir/src.c.o
+[2/2] Linking C executable cmTC_b489f
+
+
+Source file was:
+int main(void) { return 0; }

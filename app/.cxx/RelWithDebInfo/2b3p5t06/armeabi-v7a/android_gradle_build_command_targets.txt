@@ -1,0 +1,10 @@
+Executable : C:\Users\Duy Thanh\AppData\Local\Android\Sdk\cmake\3.18.1\bin\ninja.exe
+arguments : 
+-C
+C:\Users\Duy Thanh\Downloads\Compressed\Pinball-on-Android\app\.cxx\RelWithDebInfo\2b3p5t06\armeabi-v7a
+SDL2
+SDL2_mixer
+SpaceCadetPinball
+hidapi
+jvmArgs : 
+

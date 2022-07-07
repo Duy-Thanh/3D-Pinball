@@ -1,0 +1,12 @@
+prefix=C:/Program Files (x86)/SpaceCadetPinball
+exec_prefix=C:/Program Files (x86)/SpaceCadetPinball
+libdir=C:/Program Files (x86)/SpaceCadetPinball/lib
+includedir=C:/Program Files (x86)/SpaceCadetPinball/include
+
+Name: libmodplug
+Description: The ModPlug mod file playing library.
+Version: 0.8.9.1
+Requires: 
+Libs: -LC:/Program Files (x86)/SpaceCadetPinball/lib -lmodplug
+Libs.private: -lstdc++ -lm
+Cflags: -IC:/Program Files (x86)/SpaceCadetPinball/include

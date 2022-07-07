@@ -1,0 +1,367 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/build/intermediates/cxx/RelWithDebInfo/2b3p5t06/obj/x86/libSDL2_mixer.so"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_link_libraries",
+			"add_definitions",
+			"include_directories",
+			"target_sources"
+		],
+		"files" : 
+		[
+			"SDL_mixer/CMakeLists.txt",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 24,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 62,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 72,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 136,
+				"parent" : 5
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 22,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 61,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -O1 -O2 -O3 -flto=full -O0 -O1 -O2 -O3 -flto=full -O2 -DNDEBUG  -O0 -O1 -O2 -O3 -flto=full -O0 -O1 -O2 -O3 -flto=full -fPIC"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 4,
+					"define" : "MODPLUG_HEADER=<modplug.h>"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "MUSIC_MOD_MODPLUG"
+				},
+				{
+					"define" : "SDL2_mixer_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/src/main/cpp/SDL/include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/src/main/cpp/SDL_mixer/include"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/src/main/cpp/SDL_mixer/src"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/src/main/cpp/SDL_mixer/src/codecs"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/src/main/cpp/SDL_mixer/external/libmodplug/src"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20
+			],
+			"sysroot" : 
+			{
+				"path" : "C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot"
+			}
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "SDL2::@e7c329919722962a2ad4"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "modplug::@44fa865d9cf9280dc3c1"
+		}
+	],
+	"id" : "SDL2_mixer::@cfc2c49231e24e0430fc",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "external\\libmodplug\\libmodplug.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "\"C:\\Users\\Duy Thanh\\Downloads\\Compressed\\Pinball-on-Android\\app\\build\\intermediates\\cxx\\RelWithDebInfo\\2b3p5t06\\obj\\x86\\libSDL2.so\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-Wl,-rpath-link,\"C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/build/intermediates/cxx/RelWithDebInfo/2b3p5t06/obj/x86\" -latomic -lm",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX",
+		"sysroot" : 
+		{
+			"path" : "C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot"
+		}
+	},
+	"name" : "SDL2_mixer",
+	"nameOnDisk" : "libSDL2_mixer.so",
+	"paths" : 
+	{
+		"build" : "SDL_mixer",
+		"source" : "SDL_mixer"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 9,
+			"compileGroupIndex" : 0,
+			"path" : "SDL_mixer/src/effect_position.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 9,
+			"compileGroupIndex" : 0,
+			"path" : "SDL_mixer/src/effects_internal.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 9,
+			"compileGroupIndex" : 0,
+			"path" : "SDL_mixer/src/effect_stereoreverse.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 9,
+			"compileGroupIndex" : 0,
+			"path" : "SDL_mixer/src/mixer.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 9,
+			"compileGroupIndex" : 0,
+			"path" : "SDL_mixer/src/music.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 9,
+			"compileGroupIndex" : 0,
+			"path" : "SDL_mixer/src/utils.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 9,
+			"compileGroupIndex" : 0,
+			"path" : "SDL_mixer/src/codecs/load_aiff.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 9,
+			"compileGroupIndex" : 0,
+			"path" : "SDL_mixer/src/codecs/load_voc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 9,
+			"compileGroupIndex" : 0,
+			"path" : "SDL_mixer/src/codecs/music_cmd.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 9,
+			"compileGroupIndex" : 0,
+			"path" : "SDL_mixer/src/codecs/music_flac.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 9,
+			"compileGroupIndex" : 0,
+			"path" : "SDL_mixer/src/codecs/music_fluidsynth.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 9,
+			"compileGroupIndex" : 0,
+			"path" : "SDL_mixer/src/codecs/music_mad.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 9,
+			"compileGroupIndex" : 0,
+			"path" : "SDL_mixer/src/codecs/music_mikmod.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 9,
+			"compileGroupIndex" : 0,
+			"path" : "SDL_mixer/src/codecs/music_modplug.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 9,
+			"compileGroupIndex" : 0,
+			"path" : "SDL_mixer/src/codecs/music_mpg123.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 9,
+			"compileGroupIndex" : 0,
+			"path" : "SDL_mixer/src/codecs/music_nativemidi.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 9,
+			"compileGroupIndex" : 0,
+			"path" : "SDL_mixer/src/codecs/music_ogg.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 9,
+			"compileGroupIndex" : 0,
+			"path" : "SDL_mixer/src/codecs/music_opus.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 9,
+			"compileGroupIndex" : 0,
+			"path" : "SDL_mixer/src/codecs/music_timidity.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 9,
+			"compileGroupIndex" : 0,
+			"path" : "SDL_mixer/src/codecs/music_wav.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 9,
+			"compileGroupIndex" : 0,
+			"path" : "SDL_mixer/src/codecs/music_xmp.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}

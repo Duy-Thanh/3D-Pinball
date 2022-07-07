@@ -1,0 +1,925 @@
+Performing C SOURCE FILE Test HAVE_GCC_PREFERRED_STACK_BOUNDARY failed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_d778b && [1/2] Building C object CMakeFiles/cmTC_d778b.dir/src.c.o
+FAILED: CMakeFiles/cmTC_d778b.dir/src.c.o 
+C:\Users\DUYTHA~1\AppData\Local\Android\Sdk\ndk\21.4.7075529\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=i686-none-linux-android21 --gcc-toolchain="C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64" --sysroot="C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot"   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -O1 -O2 -O3 -flto=full -O0 -O1 -O2 -O3 -flto=full -idirafter "C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/src/main/cpp/SDL/src/video/khronos" -DHAVE_GCC_PREFERRED_STACK_BOUNDARY -mpreferred-stack-boundary=2 -fPIE -MD -MT CMakeFiles/cmTC_d778b.dir/src.c.o -MF CMakeFiles\cmTC_d778b.dir\src.c.o.d -o CMakeFiles/cmTC_d778b.dir/src.c.o -c src.c
+clang: error: unknown argument: '-mpreferred-stack-boundary=2'
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int x = 0; int main(int argc, char **argv) {}
+Performing C SOURCE FILE Test HAVE_ALTIVEC_H_HDR failed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_04fc0 && [1/2] Building C object CMakeFiles/cmTC_04fc0.dir/src.c.o
+FAILED: CMakeFiles/cmTC_04fc0.dir/src.c.o 
+C:\Users\DUYTHA~1\AppData\Local\Android\Sdk\ndk\21.4.7075529\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=i686-none-linux-android21 --gcc-toolchain="C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64" --sysroot="C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot"   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -O1 -O2 -O3 -flto=full -O0 -O1 -O2 -O3 -flto=full -idirafter "C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/src/main/cpp/SDL/src/video/khronos" -DHAVE_ALTIVEC_H_HDR -maltivec -fPIE -MD -MT CMakeFiles/cmTC_04fc0.dir/src.c.o -MF CMakeFiles\cmTC_04fc0.dir\src.c.o.d -o CMakeFiles/cmTC_04fc0.dir/src.c.o -c src.c
+clang: warning: argument unused during compilation: '-maltivec' [-Wunused-command-line-argument]
+In file included from src.c:2:
+C:\Users\DUYTHA~1\AppData\Local\Android\Sdk\ndk\21.4.7075529\toolchains\llvm\prebuilt\windows-x86_64\lib64\clang\9.0.9\include\altivec.h:13:2: error: "AltiVec support not enabled"
+#error "AltiVec support not enabled"
+ ^
+C:\Users\DUYTHA~1\AppData\Local\Android\Sdk\ndk\21.4.7075529\toolchains\llvm\prebuilt\windows-x86_64\lib64\clang\9.0.9\include\altivec.h:48:19: error: unknown type name 'vector'
+static __inline__ vector signed char __ATTRS_o_ai vec_perm(
+                  ^
+C:\Users\DUYTHA~1\AppData\Local\Android\Sdk\ndk\21.4.7075529\toolchains\llvm\prebuilt\windows-x86_64\lib64\clang\9.0.9\include\altivec.h:49:5: error: unknown type name 'vector'
+    vector signed char __a, vector signed char __b, vector unsigned char __c);
+    ^
+C:\Users\DUYTHA~1\AppData\Local\Android\Sdk\ndk\21.4.7075529\toolchains\llvm\prebuilt\windows-x86_64\lib64\clang\9.0.9\include\altivec.h:49:29: error: unknown type name 'vector'
+    vector signed char __a, vector signed char __b, vector unsigned char __c);
+                            ^
+C:\Users\DUYTHA~1\AppData\Local\Android\Sdk\ndk\21.4.7075529\toolchains\llvm\prebuilt\windows-x86_64\lib64\clang\9.0.9\include\altivec.h:49:53: error: unknown type name 'vector'
+    vector signed char __a, vector signed char __b, vector unsigned char __c);
+                                                    ^
+C:\Users\DUYTHA~1\AppData\Local\Android\Sdk\ndk\21.4.7075529\toolchains\llvm\prebuilt\windows-x86_64\lib64\clang\9.0.9\include\altivec.h:51:19: error: unknown type name 'vector'
+static __inline__ vector unsigned char __ATTRS_o_ai
+                  ^
+C:\Users\DUYTHA~1\AppData\Local\Android\Sdk\ndk\21.4.7075529\toolchains\llvm\prebuilt\windows-x86_64\lib64\clang\9.0.9\include\altivec.h:52:10: error: unknown type name 'vector'
+vec_perm(vector unsigned char __a, vector unsigned char __b,
+         ^
+C:\Users\DUYTHA~1\AppData\Local\Android\Sdk\ndk\21.4.7075529\toolchains\llvm\prebuilt\windows-x86_64\lib64\clang\9.0.9\include\altivec.h:52:36: error: unknown type name 'vector'
+vec_perm(vector unsigned char __a, vector unsigned char __b,
+                                   ^
+C:\Users\DUYTHA~1\AppData\Local\Android\Sdk\ndk\21.4.7075529\toolchains\llvm\prebuilt\windows-x86_64\lib64\clang\9.0.9\include\altivec.h:53:10: error: unknown type name 'vector'
+         vector unsigned char __c);
+         ^
+C:\Users\DUYTHA~1\AppData\Local\Android\Sdk\ndk\21.4.7075529\toolchains\llvm\prebuilt\windows-x86_64\lib64\clang\9.0.9\include\altivec.h:55:19: error: unknown type name 'vector'
+static __inline__ vector bool char __ATTRS_o_ai
+                  ^
+C:\Users\DUYTHA~1\AppData\Local\Android\Sdk\ndk\21.4.7075529\toolchains\llvm\prebuilt\windows-x86_64\lib64\clang\9.0.9\include\altivec.h:55:8: error: 'inline' can only appear on functions
+static __inline__ vector bool char __ATTRS_o_ai
+       ^
+C:\Users\DUYTHA~1\AppData\Local\Android\Sdk\ndk\21.4.7075529\toolchains\llvm\prebuilt\windows-x86_64\lib64\clang\9.0.9\include\altivec.h:55:30: error: expected ';' after top level declarator
+static __inline__ vector bool char __ATTRS_o_ai
+                             ^
+C:\Users\DUYTHA~1\AppData\Local\Android\Sdk\ndk\21.4.7075529\toolchains\llvm\prebuilt\windows-x86_64\lib64\clang\9.0.9\include\altivec.h:56:10: error: unknown type name 'vector'
+vec_perm(vector bool char __a, vector bool char __b, vector unsigned char __c);
+         ^
+C:\Users\DUYTHA~1\AppData\Local\Android\Sdk\ndk\21.4.7075529\toolchains\llvm\prebuilt\windows-x86_64\lib64\clang\9.0.9\include\altivec.h:56:22: error: expected ')'
+vec_perm(vector bool char __a, vector bool char __b, vector unsigned char __c);
+                     ^
+C:\Users\DUYTHA~1\AppData\Local\Android\Sdk\ndk\21.4.7075529\toolchains\llvm\prebuilt\windows-x86_64\lib64\clang\9.0.9\include\altivec.h:56:9: note: to match this '('
+vec_perm(vector bool char __a, vector bool char __b, vector unsigned char __c);
+        ^
+C:\Users\DUYTHA~1\AppData\Local\Android\Sdk\ndk\21.4.7075529\toolchains\llvm\prebuilt\windows-x86_64\lib64\clang\9.0.9\include\altivec.h:58:19: error: unknown type name 'vector'
+static __inline__ vector short __ATTRS_o_ai vec_perm(vector signed short __a,
+                  ^
+C:\Users\DUYTHA~1\AppData\Local\Android\Sdk\ndk\21.4.7075529\toolchains\llvm\prebuilt\windows-x86_64\lib64\clang\9.0.9\include\altivec.h:58:54: error: unknown type name 'vector'
+static __inline__ vector short __ATTRS_o_ai vec_perm(vector signed short __a,
+                                                     ^
+C:\Users\DUYTHA~1\AppData\Local\Android\Sdk\ndk\21.4.7075529\toolchains\llvm\prebuilt\windows-x86_64\lib64\clang\9.0.9\include\altivec.h:59:54: error: unknown type name 'vector'
+                                                     vector signed short __b,
+                                                     ^
+C:\Users\DUYTHA~1\AppData\Local\Android\Sdk\ndk\21.4.7075529\toolchains\llvm\prebuilt\windows-x86_64\lib64\clang\9.0.9\include\altivec.h:60:54: error: unknown type name 'vector'
+                                                     vector unsigned char __c);
+                                                     ^
+C:\Users\DUYTHA~1\AppData\Local\Android\Sdk\ndk\21.4.7075529\toolchains\llvm\prebuilt\windows-x86_64\lib64\clang\9.0.9\include\altivec.h:62:19: error: unknown type name 'vector'
+static __inline__ vector unsigned short __ATTRS_o_ai
+                  ^
+fatal error: too many errors emitted, stopping now [-ferror-limit=]
+20 errors generated.
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+
+          #include <altivec.h>
+          vector unsigned int vzero() {
+              return vec_splat_u32(0);
+          }
+          int main(int argc, char **argv) { }
+Performing C SOURCE FILE Test HAVE_ALTIVEC failed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_922cf && [1/2] Building C object CMakeFiles/cmTC_922cf.dir/src.c.o
+FAILED: CMakeFiles/cmTC_922cf.dir/src.c.o 
+C:\Users\DUYTHA~1\AppData\Local\Android\Sdk\ndk\21.4.7075529\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=i686-none-linux-android21 --gcc-toolchain="C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64" --sysroot="C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot"   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -O1 -O2 -O3 -flto=full -O0 -O1 -O2 -O3 -flto=full -idirafter "C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/src/main/cpp/SDL/src/video/khronos" -DHAVE_ALTIVEC -maltivec -fPIE -MD -MT CMakeFiles/cmTC_922cf.dir/src.c.o -MF CMakeFiles\cmTC_922cf.dir\src.c.o.d -o CMakeFiles/cmTC_922cf.dir/src.c.o -c src.c
+clang: warning: argument unused during compilation: '-maltivec' [-Wunused-command-line-argument]
+src.c:2:11: error: unknown type name 'vector'
+          vector unsigned int vzero() {
+          ^
+src.c:3:22: warning: implicit declaration of function 'vec_splat_u32' is invalid in C99 [-Wimplicit-function-declaration]
+              return vec_splat_u32(0);
+                     ^
+1 warning and 1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+
+          vector unsigned int vzero() {
+              return vec_splat_u32(0);
+          }
+          int main(int argc, char **argv) { }
+Determining if the include file libunwind.h exists failed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_78fe2 && [1/2] Building C object CMakeFiles/cmTC_78fe2.dir/CheckIncludeFile.c.o
+FAILED: CMakeFiles/cmTC_78fe2.dir/CheckIncludeFile.c.o 
+C:\Users\DUYTHA~1\AppData\Local\Android\Sdk\ndk\21.4.7075529\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=i686-none-linux-android21 --gcc-toolchain="C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64" --sysroot="C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot"   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -O1 -O2 -O3 -flto=full -O0 -O1 -O2 -O3 -flto=full -idirafter "C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/src/main/cpp/SDL/src/video/khronos"  -fPIE -MD -MT CMakeFiles/cmTC_78fe2.dir/CheckIncludeFile.c.o -MF CMakeFiles\cmTC_78fe2.dir\CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_78fe2.dir/CheckIncludeFile.c.o -c CheckIncludeFile.c
+CheckIncludeFile.c:1:10: fatal error: 'libunwind.h' file not found
+#include <libunwind.h>
+         ^~~~~~~~~~~~~
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the bcopy exist failed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_b00a8 && [1/2] Building C object CMakeFiles/cmTC_b00a8.dir/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_b00a8.dir/CheckSymbolExists.c.o 
+C:\Users\DUYTHA~1\AppData\Local\Android\Sdk\ndk\21.4.7075529\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=i686-none-linux-android21 --gcc-toolchain="C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64" --sysroot="C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot"   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -O1 -O2 -O3 -flto=full -O0 -O1 -O2 -O3 -flto=full -idirafter "C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/src/main/cpp/SDL/src/video/khronos"  -fPIE -MD -MT CMakeFiles/cmTC_b00a8.dir/CheckSymbolExists.c.o -MF CMakeFiles\cmTC_b00a8.dir\CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_b00a8.dir/CheckSymbolExists.c.o -c CheckSymbolExists.c
+CheckSymbolExists.c:14:19: error: use of undeclared identifier 'bcopy'
+  return ((int*)(&bcopy))[argc];
+                  ^
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+File C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef bcopy
+  return ((int*)(&bcopy))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the _strrev exist failed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_d8dda && [1/2] Building C object CMakeFiles/cmTC_d8dda.dir/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_d8dda.dir/CheckSymbolExists.c.o 
+C:\Users\DUYTHA~1\AppData\Local\Android\Sdk\ndk\21.4.7075529\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=i686-none-linux-android21 --gcc-toolchain="C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64" --sysroot="C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot"   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -O1 -O2 -O3 -flto=full -O0 -O1 -O2 -O3 -flto=full -idirafter "C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/src/main/cpp/SDL/src/video/khronos"  -fPIE -MD -MT CMakeFiles/cmTC_d8dda.dir/CheckSymbolExists.c.o -MF CMakeFiles\cmTC_d8dda.dir\CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_d8dda.dir/CheckSymbolExists.c.o -c CheckSymbolExists.c
+CheckSymbolExists.c:14:19: error: use of undeclared identifier '_strrev'; did you mean 'strsep'?
+  return ((int*)(&_strrev))[argc];
+                  ^~~~~~~
+                  strsep
+C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include\string.h:150:7: note: 'strsep' declared here
+char* strsep(char** __s_ptr, const char* __delimiter);
+      ^
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+File C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _strrev
+  return ((int*)(&_strrev))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the _strupr exist failed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_e2f9e && [1/2] Building C object CMakeFiles/cmTC_e2f9e.dir/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_e2f9e.dir/CheckSymbolExists.c.o 
+C:\Users\DUYTHA~1\AppData\Local\Android\Sdk\ndk\21.4.7075529\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=i686-none-linux-android21 --gcc-toolchain="C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64" --sysroot="C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot"   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -O1 -O2 -O3 -flto=full -O0 -O1 -O2 -O3 -flto=full -idirafter "C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/src/main/cpp/SDL/src/video/khronos"  -fPIE -MD -MT CMakeFiles/cmTC_e2f9e.dir/CheckSymbolExists.c.o -MF CMakeFiles\cmTC_e2f9e.dir\CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_e2f9e.dir/CheckSymbolExists.c.o -c CheckSymbolExists.c
+CheckSymbolExists.c:14:19: error: use of undeclared identifier '_strupr'
+  return ((int*)(&_strupr))[argc];
+                  ^
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+File C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _strupr
+  return ((int*)(&_strupr))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the _strlwr exist failed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_d5204 && [1/2] Building C object CMakeFiles/cmTC_d5204.dir/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_d5204.dir/CheckSymbolExists.c.o 
+C:\Users\DUYTHA~1\AppData\Local\Android\Sdk\ndk\21.4.7075529\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=i686-none-linux-android21 --gcc-toolchain="C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64" --sysroot="C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot"   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -O1 -O2 -O3 -flto=full -O0 -O1 -O2 -O3 -flto=full -idirafter "C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/src/main/cpp/SDL/src/video/khronos"  -fPIE -MD -MT CMakeFiles/cmTC_d5204.dir/CheckSymbolExists.c.o -MF CMakeFiles\cmTC_d5204.dir\CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_d5204.dir/CheckSymbolExists.c.o -c CheckSymbolExists.c
+CheckSymbolExists.c:14:19: error: use of undeclared identifier '_strlwr'; did you mean 'strstr'?
+  return ((int*)(&_strlwr))[argc];
+                  ^~~~~~~
+                  strstr
+C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include\string.h:112:7: note: 'strstr' declared here
+char* strstr(const char* __haystack, const char* __needle) __attribute_pure__;
+      ^
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+File C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _strlwr
+  return ((int*)(&_strlwr))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the index exist failed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_fedc1 && [1/2] Building C object CMakeFiles/cmTC_fedc1.dir/CheckSymbolExists.c.o
+CheckSymbolExists.c:14:19: warning: implicitly declaring library function 'index' with type 'char *(const char *, int)' [-Wimplicit-function-declaration]
+  return ((int*)(&index))[argc];
+                  ^
+CheckSymbolExists.c:14:19: note: include the header <strings.h> or explicitly provide a declaration for 'index'
+1 warning generated.
+[2/2] Linking C executable cmTC_fedc1
+FAILED: cmTC_fedc1 
+cmd.exe /C "cd . && C:\Users\DUYTHA~1\AppData\Local\Android\Sdk\ndk\21.4.7075529\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=i686-none-linux-android21 --gcc-toolchain="C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64" --sysroot="C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot" -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -O1 -O2 -O3 -flto=full -O0 -O1 -O2 -O3 -flto=full -idirafter "C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/src/main/cpp/SDL/src/video/khronos" -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments -Wl,--gc-sections CMakeFiles/cmTC_fedc1.dir/CheckSymbolExists.c.o -o cmTC_fedc1  -latomic -lm && cd ."
+CheckSymbolExists.c:14: error: undefined reference to 'index'
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+ninja: build stopped: subcommand failed.
+
+
+File C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef index
+  return ((int*)(&index))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the rindex exist failed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_77c51 && [1/2] Building C object CMakeFiles/cmTC_77c51.dir/CheckSymbolExists.c.o
+CheckSymbolExists.c:14:19: warning: implicitly declaring library function 'rindex' with type 'char *(const char *, int)' [-Wimplicit-function-declaration]
+  return ((int*)(&rindex))[argc];
+                  ^
+CheckSymbolExists.c:14:19: note: include the header <strings.h> or explicitly provide a declaration for 'rindex'
+1 warning generated.
+[2/2] Linking C executable cmTC_77c51
+FAILED: cmTC_77c51 
+cmd.exe /C "cd . && C:\Users\DUYTHA~1\AppData\Local\Android\Sdk\ndk\21.4.7075529\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=i686-none-linux-android21 --gcc-toolchain="C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64" --sysroot="C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot" -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -O1 -O2 -O3 -flto=full -O0 -O1 -O2 -O3 -flto=full -idirafter "C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/src/main/cpp/SDL/src/video/khronos" -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments -Wl,--gc-sections CMakeFiles/cmTC_77c51.dir/CheckSymbolExists.c.o -o cmTC_77c51  -latomic -lm && cd ."
+CheckSymbolExists.c:14: error: undefined reference to 'rindex'
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+ninja: build stopped: subcommand failed.
+
+
+File C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef rindex
+  return ((int*)(&rindex))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the itoa exist failed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_c6311 && [1/2] Building C object CMakeFiles/cmTC_c6311.dir/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_c6311.dir/CheckSymbolExists.c.o 
+C:\Users\DUYTHA~1\AppData\Local\Android\Sdk\ndk\21.4.7075529\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=i686-none-linux-android21 --gcc-toolchain="C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64" --sysroot="C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot"   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -O1 -O2 -O3 -flto=full -O0 -O1 -O2 -O3 -flto=full -idirafter "C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/src/main/cpp/SDL/src/video/khronos"  -fPIE -MD -MT CMakeFiles/cmTC_c6311.dir/CheckSymbolExists.c.o -MF CMakeFiles\cmTC_c6311.dir\CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_c6311.dir/CheckSymbolExists.c.o -c CheckSymbolExists.c
+CheckSymbolExists.c:14:19: error: use of undeclared identifier 'itoa'
+  return ((int*)(&itoa))[argc];
+                  ^
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+File C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef itoa
+  return ((int*)(&itoa))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the _ltoa exist failed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_987b7 && [1/2] Building C object CMakeFiles/cmTC_987b7.dir/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_987b7.dir/CheckSymbolExists.c.o 
+C:\Users\DUYTHA~1\AppData\Local\Android\Sdk\ndk\21.4.7075529\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=i686-none-linux-android21 --gcc-toolchain="C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64" --sysroot="C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot"   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -O1 -O2 -O3 -flto=full -O0 -O1 -O2 -O3 -flto=full -idirafter "C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/src/main/cpp/SDL/src/video/khronos"  -fPIE -MD -MT CMakeFiles/cmTC_987b7.dir/CheckSymbolExists.c.o -MF CMakeFiles\cmTC_987b7.dir\CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_987b7.dir/CheckSymbolExists.c.o -c CheckSymbolExists.c
+CheckSymbolExists.c:14:19: error: use of undeclared identifier '_ltoa'
+  return ((int*)(&_ltoa))[argc];
+                  ^
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+File C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _ltoa
+  return ((int*)(&_ltoa))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the _uitoa exist failed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_1ada0 && [1/2] Building C object CMakeFiles/cmTC_1ada0.dir/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_1ada0.dir/CheckSymbolExists.c.o 
+C:\Users\DUYTHA~1\AppData\Local\Android\Sdk\ndk\21.4.7075529\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=i686-none-linux-android21 --gcc-toolchain="C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64" --sysroot="C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot"   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -O1 -O2 -O3 -flto=full -O0 -O1 -O2 -O3 -flto=full -idirafter "C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/src/main/cpp/SDL/src/video/khronos"  -fPIE -MD -MT CMakeFiles/cmTC_1ada0.dir/CheckSymbolExists.c.o -MF CMakeFiles\cmTC_1ada0.dir\CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_1ada0.dir/CheckSymbolExists.c.o -c CheckSymbolExists.c
+CheckSymbolExists.c:14:19: error: use of undeclared identifier '_uitoa'
+  return ((int*)(&_uitoa))[argc];
+                  ^
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+File C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _uitoa
+  return ((int*)(&_uitoa))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the _ultoa exist failed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_4d60c && [1/2] Building C object CMakeFiles/cmTC_4d60c.dir/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_4d60c.dir/CheckSymbolExists.c.o 
+C:\Users\DUYTHA~1\AppData\Local\Android\Sdk\ndk\21.4.7075529\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=i686-none-linux-android21 --gcc-toolchain="C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64" --sysroot="C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot"   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -O1 -O2 -O3 -flto=full -O0 -O1 -O2 -O3 -flto=full -idirafter "C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/src/main/cpp/SDL/src/video/khronos"  -fPIE -MD -MT CMakeFiles/cmTC_4d60c.dir/CheckSymbolExists.c.o -MF CMakeFiles\cmTC_4d60c.dir\CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_4d60c.dir/CheckSymbolExists.c.o -c CheckSymbolExists.c
+CheckSymbolExists.c:14:19: error: use of undeclared identifier '_ultoa'
+  return ((int*)(&_ultoa))[argc];
+                  ^
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+File C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _ultoa
+  return ((int*)(&_ultoa))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the _i64toa exist failed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_50a68 && [1/2] Building C object CMakeFiles/cmTC_50a68.dir/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_50a68.dir/CheckSymbolExists.c.o 
+C:\Users\DUYTHA~1\AppData\Local\Android\Sdk\ndk\21.4.7075529\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=i686-none-linux-android21 --gcc-toolchain="C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64" --sysroot="C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot"   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -O1 -O2 -O3 -flto=full -O0 -O1 -O2 -O3 -flto=full -idirafter "C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/src/main/cpp/SDL/src/video/khronos"  -fPIE -MD -MT CMakeFiles/cmTC_50a68.dir/CheckSymbolExists.c.o -MF CMakeFiles\cmTC_50a68.dir\CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_50a68.dir/CheckSymbolExists.c.o -c CheckSymbolExists.c
+CheckSymbolExists.c:14:19: error: use of undeclared identifier '_i64toa'
+  return ((int*)(&_i64toa))[argc];
+                  ^
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+File C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _i64toa
+  return ((int*)(&_i64toa))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the _ui64toa exist failed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_2d23b && [1/2] Building C object CMakeFiles/cmTC_2d23b.dir/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_2d23b.dir/CheckSymbolExists.c.o 
+C:\Users\DUYTHA~1\AppData\Local\Android\Sdk\ndk\21.4.7075529\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=i686-none-linux-android21 --gcc-toolchain="C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64" --sysroot="C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot"   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -O1 -O2 -O3 -flto=full -O0 -O1 -O2 -O3 -flto=full -idirafter "C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/src/main/cpp/SDL/src/video/khronos"  -fPIE -MD -MT CMakeFiles/cmTC_2d23b.dir/CheckSymbolExists.c.o -MF CMakeFiles\cmTC_2d23b.dir\CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_2d23b.dir/CheckSymbolExists.c.o -c CheckSymbolExists.c
+CheckSymbolExists.c:14:19: error: use of undeclared identifier '_ui64toa'
+  return ((int*)(&_ui64toa))[argc];
+                  ^
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+File C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _ui64toa
+  return ((int*)(&_ui64toa))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the _stricmp exist failed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_6cd69 && [1/2] Building C object CMakeFiles/cmTC_6cd69.dir/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_6cd69.dir/CheckSymbolExists.c.o 
+C:\Users\DUYTHA~1\AppData\Local\Android\Sdk\ndk\21.4.7075529\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=i686-none-linux-android21 --gcc-toolchain="C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64" --sysroot="C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot"   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -O1 -O2 -O3 -flto=full -O0 -O1 -O2 -O3 -flto=full -idirafter "C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/src/main/cpp/SDL/src/video/khronos"  -fPIE -MD -MT CMakeFiles/cmTC_6cd69.dir/CheckSymbolExists.c.o -MF CMakeFiles\cmTC_6cd69.dir\CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_6cd69.dir/CheckSymbolExists.c.o -c CheckSymbolExists.c
+CheckSymbolExists.c:14:19: error: use of undeclared identifier '_stricmp'
+  return ((int*)(&_stricmp))[argc];
+                  ^
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+File C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _stricmp
+  return ((int*)(&_stricmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the _strnicmp exist failed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_9f0e3 && [1/2] Building C object CMakeFiles/cmTC_9f0e3.dir/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_9f0e3.dir/CheckSymbolExists.c.o 
+C:\Users\DUYTHA~1\AppData\Local\Android\Sdk\ndk\21.4.7075529\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=i686-none-linux-android21 --gcc-toolchain="C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64" --sysroot="C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot"   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -O1 -O2 -O3 -flto=full -O0 -O1 -O2 -O3 -flto=full -idirafter "C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/src/main/cpp/SDL/src/video/khronos"  -fPIE -MD -MT CMakeFiles/cmTC_9f0e3.dir/CheckSymbolExists.c.o -MF CMakeFiles\cmTC_9f0e3.dir\CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_9f0e3.dir/CheckSymbolExists.c.o -c CheckSymbolExists.c
+CheckSymbolExists.c:14:19: error: use of undeclared identifier '_strnicmp'; did you mean 'strncmp'?
+  return ((int*)(&_strnicmp))[argc];
+                  ^~~~~~~~~
+                  strncmp
+C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include\string.h:137:5: note: 'strncmp' declared here
+int strncmp(const char* __lhs, const char* __rhs, size_t __n) __attribute_pure__;
+    ^
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+File C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _strnicmp
+  return ((int*)(&_strnicmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the _wcsdup exist failed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_f07e6 && [1/2] Building C object CMakeFiles/cmTC_f07e6.dir/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_f07e6.dir/CheckSymbolExists.c.o 
+C:\Users\DUYTHA~1\AppData\Local\Android\Sdk\ndk\21.4.7075529\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=i686-none-linux-android21 --gcc-toolchain="C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64" --sysroot="C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot"   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -O1 -O2 -O3 -flto=full -O0 -O1 -O2 -O3 -flto=full -idirafter "C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/src/main/cpp/SDL/src/video/khronos"  -fPIE -MD -MT CMakeFiles/cmTC_f07e6.dir/CheckSymbolExists.c.o -MF CMakeFiles\cmTC_f07e6.dir\CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_f07e6.dir/CheckSymbolExists.c.o -c CheckSymbolExists.c
+CheckSymbolExists.c:14:19: error: use of undeclared identifier '_wcsdup'; did you mean 'wcsdup'?
+  return ((int*)(&_wcsdup))[argc];
+                  ^~~~~~~
+                  wcsdup
+C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include\wchar.h:208:10: note: 'wcsdup' declared here
+wchar_t* wcsdup(const wchar_t* __s);
+         ^
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+File C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _wcsdup
+  return ((int*)(&_wcsdup))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the _wcsicmp exist failed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_383fb && [1/2] Building C object CMakeFiles/cmTC_383fb.dir/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_383fb.dir/CheckSymbolExists.c.o 
+C:\Users\DUYTHA~1\AppData\Local\Android\Sdk\ndk\21.4.7075529\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=i686-none-linux-android21 --gcc-toolchain="C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64" --sysroot="C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot"   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -O1 -O2 -O3 -flto=full -O0 -O1 -O2 -O3 -flto=full -idirafter "C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/src/main/cpp/SDL/src/video/khronos"  -fPIE -MD -MT CMakeFiles/cmTC_383fb.dir/CheckSymbolExists.c.o -MF CMakeFiles\cmTC_383fb.dir\CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_383fb.dir/CheckSymbolExists.c.o -c CheckSymbolExists.c
+CheckSymbolExists.c:14:19: error: use of undeclared identifier '_wcsicmp'
+  return ((int*)(&_wcsicmp))[argc];
+                  ^
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+File C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _wcsicmp
+  return ((int*)(&_wcsicmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the _wcsnicmp exist failed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_ea3da && [1/2] Building C object CMakeFiles/cmTC_ea3da.dir/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_ea3da.dir/CheckSymbolExists.c.o 
+C:\Users\DUYTHA~1\AppData\Local\Android\Sdk\ndk\21.4.7075529\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=i686-none-linux-android21 --gcc-toolchain="C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64" --sysroot="C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot"   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -O1 -O2 -O3 -flto=full -O0 -O1 -O2 -O3 -flto=full -idirafter "C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/src/main/cpp/SDL/src/video/khronos"  -fPIE -MD -MT CMakeFiles/cmTC_ea3da.dir/CheckSymbolExists.c.o -MF CMakeFiles\cmTC_ea3da.dir\CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_ea3da.dir/CheckSymbolExists.c.o -c CheckSymbolExists.c
+CheckSymbolExists.c:14:19: error: use of undeclared identifier '_wcsnicmp'; did you mean 'wcsncmp'?
+  return ((int*)(&_wcsnicmp))[argc];
+                  ^~~~~~~~~
+                  wcsncmp
+C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include\wchar.h:117:5: note: 'wcsncmp' declared here
+int wcsncmp(const wchar_t* __lhs, const wchar_t* __rhs, size_t __n);
+    ^
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+File C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _wcsnicmp
+  return ((int*)(&_wcsnicmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the fopen64 exist failed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_1e42f && [1/2] Building C object CMakeFiles/cmTC_1e42f.dir/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_1e42f.dir/CheckSymbolExists.c.o 
+C:\Users\DUYTHA~1\AppData\Local\Android\Sdk\ndk\21.4.7075529\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=i686-none-linux-android21 --gcc-toolchain="C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64" --sysroot="C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot"   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -O1 -O2 -O3 -flto=full -O0 -O1 -O2 -O3 -flto=full -idirafter "C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/src/main/cpp/SDL/src/video/khronos"  -fPIE -MD -MT CMakeFiles/cmTC_1e42f.dir/CheckSymbolExists.c.o -MF CMakeFiles\cmTC_1e42f.dir\CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_1e42f.dir/CheckSymbolExists.c.o -c CheckSymbolExists.c
+CheckSymbolExists.c:14:19: error: use of undeclared identifier 'fopen64'; did you mean 'fopen'?
+  return ((int*)(&fopen64))[argc];
+                  ^~~~~~~
+                  fopen
+C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include\stdio.h:280:7: note: 'fopen' declared here
+FILE* fopen(const char* __path, const char* __mode);
+      ^
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+File C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef fopen64
+  return ((int*)(&fopen64))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the fseeko64 exist failed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_24645 && [1/2] Building C object CMakeFiles/cmTC_24645.dir/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_24645.dir/CheckSymbolExists.c.o 
+C:\Users\DUYTHA~1\AppData\Local\Android\Sdk\ndk\21.4.7075529\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=i686-none-linux-android21 --gcc-toolchain="C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64" --sysroot="C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot"   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -O1 -O2 -O3 -flto=full -O0 -O1 -O2 -O3 -flto=full -idirafter "C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/src/main/cpp/SDL/src/video/khronos"  -fPIE -MD -MT CMakeFiles/cmTC_24645.dir/CheckSymbolExists.c.o -MF CMakeFiles\cmTC_24645.dir\CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_24645.dir/CheckSymbolExists.c.o -c CheckSymbolExists.c
+CheckSymbolExists.c:14:19: error: use of undeclared identifier 'fseeko64'; did you mean 'fseeko'?
+  return ((int*)(&fseeko64))[argc];
+                  ^~~~~~~~
+                  fseeko
+C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include\stdio.h:250:5: note: 'fseeko' declared here
+int fseeko(FILE* __fp, off_t __offset, int __whence);
+    ^
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+File C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef fseeko64
+  return ((int*)(&fseeko64))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the sysctlbyname exist failed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_27e64 && [1/2] Building C object CMakeFiles/cmTC_27e64.dir/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_27e64.dir/CheckSymbolExists.c.o 
+C:\Users\DUYTHA~1\AppData\Local\Android\Sdk\ndk\21.4.7075529\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=i686-none-linux-android21 --gcc-toolchain="C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64" --sysroot="C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot"   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -O1 -O2 -O3 -flto=full -O0 -O1 -O2 -O3 -flto=full -idirafter "C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/src/main/cpp/SDL/src/video/khronos"  -fPIE -MD -MT CMakeFiles/cmTC_27e64.dir/CheckSymbolExists.c.o -MF CMakeFiles\cmTC_27e64.dir\CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_27e64.dir/CheckSymbolExists.c.o -c CheckSymbolExists.c
+CheckSymbolExists.c:3:10: fatal error: 'sys/sysctl.h' file not found
+#include <sys/sysctl.h>
+         ^~~~~~~~~~~~~~
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+File C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/types.h>
+#include <sys/sysctl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sysctlbyname
+  return ((int*)(&sysctlbyname))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the elf_aux_info exist failed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_427d9 && [1/2] Building C object CMakeFiles/cmTC_427d9.dir/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_427d9.dir/CheckSymbolExists.c.o 
+C:\Users\DUYTHA~1\AppData\Local\Android\Sdk\ndk\21.4.7075529\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=i686-none-linux-android21 --gcc-toolchain="C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64" --sysroot="C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot"   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -O1 -O2 -O3 -flto=full -O0 -O1 -O2 -O3 -flto=full -idirafter "C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/src/main/cpp/SDL/src/video/khronos"  -fPIE -MD -MT CMakeFiles/cmTC_427d9.dir/CheckSymbolExists.c.o -MF CMakeFiles\cmTC_427d9.dir\CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_427d9.dir/CheckSymbolExists.c.o -c CheckSymbolExists.c
+CheckSymbolExists.c:8:19: error: use of undeclared identifier 'elf_aux_info'
+  return ((int*)(&elf_aux_info))[argc];
+                  ^
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+File C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/auxv.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef elf_aux_info
+  return ((int*)(&elf_aux_info))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the function iconv_open exists in the iconv failed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_01fc9 && [1/2] Building C object CMakeFiles/cmTC_01fc9.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_01fc9
+FAILED: cmTC_01fc9 
+cmd.exe /C "cd . && C:\Users\DUYTHA~1\AppData\Local\Android\Sdk\ndk\21.4.7075529\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=i686-none-linux-android21 --gcc-toolchain="C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64" --sysroot="C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot" -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -O1 -O2 -O3 -flto=full -O0 -O1 -O2 -O3 -flto=full -idirafter "C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/src/main/cpp/SDL/src/video/khronos" -DCHECK_FUNCTION_EXISTS=iconv_open -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments -Wl,--gc-sections CMakeFiles/cmTC_01fc9.dir/CheckFunctionExists.c.o -o cmTC_01fc9  -liconv  -latomic -lm && cd ."
+C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/bin\ld: error: cannot find -liconv
+C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/share/cmake-3.18/Modules/CheckFunctionExists.c:17: error: undefined reference to 'iconv_open'
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the function iconv_open exists in the c failed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_f98b2 && [1/2] Building C object CMakeFiles/cmTC_f98b2.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_f98b2
+FAILED: cmTC_f98b2 
+cmd.exe /C "cd . && C:\Users\DUYTHA~1\AppData\Local\Android\Sdk\ndk\21.4.7075529\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=i686-none-linux-android21 --gcc-toolchain="C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64" --sysroot="C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot" -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -O1 -O2 -O3 -flto=full -O0 -O1 -O2 -O3 -flto=full -idirafter "C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/src/main/cpp/SDL/src/video/khronos" -DCHECK_FUNCTION_EXISTS=iconv_open -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments -Wl,--gc-sections CMakeFiles/cmTC_f98b2.dir/CheckFunctionExists.c.o -o cmTC_f98b2  -lc  -latomic -lm && cd ."
+C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/share/cmake-3.18/Modules/CheckFunctionExists.c:17: error: undefined reference to 'iconv_open'
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the alloca exist failed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_ba132 && [1/2] Building C object CMakeFiles/cmTC_ba132.dir/CheckSymbolExists.c.o
+CheckSymbolExists.c:8:19: warning: implicitly declaring library function 'alloca' with type 'void *(unsigned int)' [-Wimplicit-function-declaration]
+  return ((int*)(&alloca))[argc];
+                  ^
+CheckSymbolExists.c:8:19: note: include the header <stdlib.h> or explicitly provide a declaration for 'alloca'
+1 warning generated.
+[2/2] Linking C executable cmTC_ba132
+FAILED: cmTC_ba132 
+cmd.exe /C "cd . && C:\Users\DUYTHA~1\AppData\Local\Android\Sdk\ndk\21.4.7075529\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=i686-none-linux-android21 --gcc-toolchain="C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64" --sysroot="C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot" -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -O1 -O2 -O3 -flto=full -O0 -O1 -O2 -O3 -flto=full -idirafter "C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/src/main/cpp/SDL/src/video/khronos" -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments -Wl,--gc-sections CMakeFiles/cmTC_ba132.dir/CheckSymbolExists.c.o -o cmTC_ba132  -latomic -lm && cd ."
+CheckSymbolExists.c:8: error: undefined reference to 'alloca'
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+ninja: build stopped: subcommand failed.
+
+
+File C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <malloc.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef alloca
+  return ((int*)(&alloca))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if files pthread_np.h exist failed with the following output:
+Change Dir: C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/Duy Thanh/AppData/Local/Android/Sdk/cmake/3.18.1/bin/ninja.exe cmTC_88fb0 && [1/2] Building C object CMakeFiles/cmTC_88fb0.dir/HAVE_PTHREAD_NP_H.c.o
+FAILED: CMakeFiles/cmTC_88fb0.dir/HAVE_PTHREAD_NP_H.c.o 
+C:\Users\DUYTHA~1\AppData\Local\Android\Sdk\ndk\21.4.7075529\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=i686-none-linux-android21 --gcc-toolchain="C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64" --sysroot="C:/Users/Duy Thanh/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot"   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -O1 -O2 -O3 -flto=full -O0 -O1 -O2 -O3 -flto=full -idirafter "C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/src/main/cpp/SDL/src/video/khronos"  "-IC:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/src/main/cpp/SDL/src/hidapi/hidapi"    -fPIE -MD -MT CMakeFiles/cmTC_88fb0.dir/HAVE_PTHREAD_NP_H.c.o -MF CMakeFiles\cmTC_88fb0.dir\HAVE_PTHREAD_NP_H.c.o.d -o CMakeFiles/cmTC_88fb0.dir/HAVE_PTHREAD_NP_H.c.o -c "C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86/CMakeFiles/CheckIncludeFiles/HAVE_PTHREAD_NP_H.c"
+C:/Users/Duy Thanh/Downloads/Compressed/Pinball-on-Android/app/.cxx/RelWithDebInfo/2b3p5t06/x86/CMakeFiles/CheckIncludeFiles/HAVE_PTHREAD_NP_H.c:2:10: fatal error: 'pthread_np.h' file not found
+#include <pthread_np.h>
+         ^~~~~~~~~~~~~~
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+Source:
+/* */
+#include <pthread_np.h>
+
+
+int main(void){return 0;}
+

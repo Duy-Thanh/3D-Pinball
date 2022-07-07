@@ -1,0 +1,92 @@
+{
+  "buildFiles": [
+    "C:\\Users\\Duy Thanh\\Downloads\\Compressed\\Pinball-on-Android\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "C:\\Users\\Duy Thanh\\Downloads\\Compressed\\Pinball-on-Android\\app\\src\\main\\cpp\\SDL\\cmake\\macros.cmake",
+    "C:\\Users\\Duy Thanh\\Downloads\\Compressed\\Pinball-on-Android\\app\\src\\main\\cpp\\SDL\\cmake\\sdlchecks.cmake",
+    "C:\\Users\\Duy Thanh\\Downloads\\Compressed\\Pinball-on-Android\\app\\src\\main\\cpp\\SDL\\cmake_uninstall.cmake.in",
+    "C:\\Users\\Duy Thanh\\Downloads\\Compressed\\Pinball-on-Android\\app\\src\\main\\cpp\\SDL\\CMakeLists.txt",
+    "C:\\Users\\Duy Thanh\\Downloads\\Compressed\\Pinball-on-Android\\app\\src\\main\\cpp\\SDL\\include\\SDL_config.h.cmake",
+    "C:\\Users\\Duy Thanh\\Downloads\\Compressed\\Pinball-on-Android\\app\\src\\main\\cpp\\SDL\\include\\SDL_revision.h.cmake",
+    "C:\\Users\\Duy Thanh\\Downloads\\Compressed\\Pinball-on-Android\\app\\src\\main\\cpp\\SDL_mixer\\CMakeLists.txt",
+    "C:\\Users\\Duy Thanh\\Downloads\\Compressed\\Pinball-on-Android\\app\\src\\main\\cpp\\SDL_mixer\\external\\libmodplug\\CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "C:\\Users\\Duy Thanh\\AppData\\Local\\Android\\Sdk\\cmake\\3.18.1\\bin\\ninja.exe",
+      "-C",
+      "C:\\Users\\Duy Thanh\\Downloads\\Compressed\\Pinball-on-Android\\app\\.cxx\\RelWithDebInfo\\2b3p5t06\\arm64-v8a",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "C:\\Users\\Duy Thanh\\AppData\\Local\\Android\\Sdk\\cmake\\3.18.1\\bin\\ninja.exe",
+    "-C",
+    "C:\\Users\\Duy Thanh\\Downloads\\Compressed\\Pinball-on-Android\\app\\.cxx\\RelWithDebInfo\\2b3p5t06\\arm64-v8a",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "SDL2::@e7c329919722962a2ad4": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "SDL2",
+      "output": "C:\\Users\\Duy Thanh\\Downloads\\Compressed\\Pinball-on-Android\\app\\build\\intermediates\\cxx\\RelWithDebInfo\\2b3p5t06\\obj\\arm64-v8a\\libSDL2.so",
+      "runtimeFiles": []
+    },
+    "SDL2-static::@e7c329919722962a2ad4": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "SDL2-static",
+      "output": "C:\\Users\\Duy Thanh\\Downloads\\Compressed\\Pinball-on-Android\\app\\.cxx\\RelWithDebInfo\\2b3p5t06\\arm64-v8a\\SDL\\libSDL2.a"
+    },
+    "SDL2_mixer::@cfc2c49231e24e0430fc": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "SDL2_mixer",
+      "output": "C:\\Users\\Duy Thanh\\Downloads\\Compressed\\Pinball-on-Android\\app\\build\\intermediates\\cxx\\RelWithDebInfo\\2b3p5t06\\obj\\arm64-v8a\\libSDL2_mixer.so",
+      "runtimeFiles": []
+    },
+    "SDL2main::@e7c329919722962a2ad4": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "SDL2main",
+      "output": "C:\\Users\\Duy Thanh\\Downloads\\Compressed\\Pinball-on-Android\\app\\.cxx\\RelWithDebInfo\\2b3p5t06\\arm64-v8a\\SDL\\libSDL2main.a"
+    },
+    "SpaceCadetPinball::@6890427a1f51a3e7e1df": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "SpaceCadetPinball",
+      "output": "C:\\Users\\Duy Thanh\\Downloads\\Compressed\\Pinball-on-Android\\app\\build\\intermediates\\cxx\\RelWithDebInfo\\2b3p5t06\\obj\\arm64-v8a\\libSpaceCadetPinball.so",
+      "runtimeFiles": []
+    },
+    "hidapi::@e7c329919722962a2ad4": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "hidapi",
+      "output": "C:\\Users\\Duy Thanh\\Downloads\\Compressed\\Pinball-on-Android\\app\\build\\intermediates\\cxx\\RelWithDebInfo\\2b3p5t06\\obj\\arm64-v8a\\libhidapi.so",
+      "runtimeFiles": []
+    },
+    "modplug::@44fa865d9cf9280dc3c1": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "modplug",
+      "output": "C:\\Users\\Duy Thanh\\Downloads\\Compressed\\Pinball-on-Android\\app\\.cxx\\RelWithDebInfo\\2b3p5t06\\arm64-v8a\\SDL_mixer\\external\\libmodplug\\libmodplug.a"
+    },
+    "uninstall::@e7c329919722962a2ad4": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "uninstall"
+    }
+  },
+  "toolchains": {
+    "toolchain": {
+      "cCompilerExecutable": "C:\\Users\\Duy Thanh\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe",
+      "cppCompilerExecutable": "C:\\Users\\Duy Thanh\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe"
+    }
+  },
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

@@ -1,0 +1,2 @@
+ninja: Entering directory `C:\Users\Duy Thanh\Downloads\Compressed\Pinball-on-Android\app\.cxx\RelWithDebInfo\2b3p5t06\arm64-v8a'
+ninja: no work to do.
