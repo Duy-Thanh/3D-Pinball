@@ -8,6 +8,10 @@ Android port of `3D Pinball for Windows – Space Cadet`, a game bundled with Wi
 
 Thanks to [k4zmu2a](https://github.com/k4zmu2a) for the original source code and to [iscle](https://github.com/Iscle) for the original Android porting
 
+## Development Progress
+
+To know the list of jobs and changes in the future as well as work progress, follow [this issue](https://github.com/Duy-Thanh/Pinball-On-Android/issues/1)
+
 ## How to play
 
 Download the latest avaliable [APK](https://github.com/Duy-Thanh/Pinball-on-Android/releases)
