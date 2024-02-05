@@ -6,6 +6,8 @@
 
 Mobile devices port of `3D Pinball for Windows – Space Cadet`, a game bundled with Windows.
 
+Currently the project has only support code for Android; iOS and iPadOS will soon receive support and I am working on these ports
+
 Thanks to [k4zmu2a](https://github.com/k4zmu2a) for the original source code and to [iscle](https://github.com/Iscle) for the original Android porting
 
 ## Development Progress
