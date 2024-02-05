@@ -1,6 +1,6 @@
 <!-- markdownlint-disable-file MD033 -->
 
-# Pinball-on-Android
+# Pinball-on-Android now renamed to 3D-Pinball as part of the project expansion
 
 ## Summary
 
