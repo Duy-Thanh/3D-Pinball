@@ -1,12 +1,14 @@
-cmake_minimum_required(VERSION 3.10.2)
+cmake_minimum_required(VERSION 3.18.1)
 set(CMAKE_CXX_STANDARD 11)
 project(SpaceCadetPinball)
 
 set(CMAKE_BUILD_TYPE RELEASE)
-set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -O0 -O1 -O2 -O3 -flto=full")
-set(CMAKE_C_FLAGS_RELEASE "${CMAKE_C_FLAGS_RELEASE} -O0 -O1 -O2 -O3 -flto=full")
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -O0 -O1 -O2 -O3 -flto=full")
-set(CMAKE_CXX_FLAGS_RELEASE "${CMAKE_CXX_FLAGS_RELEASE} -O0 -O1 -O2 -O3 -flto=full")
+set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -Wall -Ofast -flto=full")
+set(CMAKE_C_FLAGS_RELEASE "${CMAKE_C_FLAGS_RELEASE} -Wall -Ofast -flto=full")
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -Ofast -flto=full")
+set(CMAKE_CXX_FLAGS_RELEASE "${CMAKE_CXX_FLAGS_RELEASE} -Wall -Ofast -flto=full")
+
+add_compile_options(-Wno-declaration-after-statement)
 
 set(SOURCE_FILES
         ../../../../SpaceCadetPinball/control.cpp

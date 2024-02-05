@@ -55,14 +55,14 @@
             android:id="@+id/gplaytxtv"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="32dp"
+            android:layout_marginTop="4dp"
             android:layout_marginEnd="16dp"
             android:autoLink="web"
-            android:text="@string/goto_googleplay"
             android:textAlignment="center"
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-            android:textSize="16sp"
+            android:textSize="6sp"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="@+id/textView2"
             app:layout_constraintTop_toBottomOf="@+id/highscoretxtv2" />
 
@@ -149,13 +149,25 @@
             app:layout_constraintTop_toTopOf="@+id/textView" />
 
         <TextView
+            android:id="@+id/cheatindicatorlbl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="@string/cheat_notused"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="14sp"
+            app:layout_constraintStart_toStartOf="@+id/textView2"
+            app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+        <TextView
             android:id="@+id/textView6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="32dp"
+            android:layout_marginTop="4dp"
             android:text="@string/cheat_title"
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
             android:textSize="20sp"
+            android:textStyle="bold"
             app:layout_constraintStart_toStartOf="@+id/textView2"
             app:layout_constraintTop_toBottomOf="@+id/gplaytxtv" />
 
@@ -163,23 +175,12 @@
             android:id="@+id/textView7"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="4dp"
             android:text="@string/cheat_disclaimer"
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
             android:textSize="14sp"
             app:layout_constraintStart_toStartOf="@+id/textView2"
             app:layout_constraintTop_toBottomOf="@+id/cheatindicatorlbl" />
-
-        <TextView
-            android:id="@+id/cheatindicatorlbl"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
-            android:text="@string/cheat_notused"
-            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-            android:textSize="14sp"
-            app:layout_constraintStart_toStartOf="@+id/textView2"
-            app:layout_constraintTop_toBottomOf="@+id/textView6" />
 
         <LinearLayout
             android:layout_width="match_parent"

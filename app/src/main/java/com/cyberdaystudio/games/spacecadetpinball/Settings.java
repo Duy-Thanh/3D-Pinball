@@ -23,7 +23,6 @@ import org.libsdl.app.SDLActivity;
 import org.w3c.dom.Text;
 
 public class Settings extends AppCompatActivity {
-
     private ActivitySettingsBinding mBinding;
     private String name = "com.cyberdaystudio.games.3dpinball";
 
@@ -35,7 +34,7 @@ public class Settings extends AppCompatActivity {
         setContentView(view);
 
         int score = HighScoreHandler.getHighScore(getApplicationContext());
-        String txt = score + "";
+        String txt = String.valueOf(score);
         mBinding.highscoretxtv.setText(txt);
 
         txt = "Version " + BuildConfig.VERSION_NAME + " (" + BuildConfig.VERSION_CODE + ")";
@@ -66,15 +65,9 @@ public class Settings extends AppCompatActivity {
             }
 
             @Override
-            public void afterTextChanged(Editable editable) {
-
-            }
+            public void afterTextChanged(Editable editable) { }
         });
 
-        mBinding.gplaytxtv.setOnClickListener(v -> {
-            Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("#"));
-            startActivity(browserIntent);
-        });
         mBinding.githubtxtv.setOnClickListener(v -> {
             Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/Duy-Thanh/Pinball-on-Android/releases"));
             startActivity(browserIntent);
@@ -88,12 +81,10 @@ public class Settings extends AppCompatActivity {
             }
 
             @Override
-            public void onStartTrackingTouch(SeekBar seekBar) {
-            }
+            public void onStartTrackingTouch(SeekBar seekBar) { }
 
             @Override
-            public void onStopTrackingTouch(SeekBar seekBar) {
-            }
+            public void onStopTrackingTouch(SeekBar seekBar) { }
         });
 
         boolean cheatsUsed = getSharedPreferences(name, Context.MODE_PRIVATE).getBoolean("cheatsused", false);

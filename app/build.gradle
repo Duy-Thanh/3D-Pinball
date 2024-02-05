@@ -3,12 +3,12 @@ plugins {
 }
 
 android {
-    compileSdk 31
+    compileSdk 33
 
     defaultConfig {
         applicationId "com.cyberdaystudio.games.spacecadetpinball"
         minSdk 21
-        targetSdk 31
+        targetSdk 33
         versionCode 8
         versionName '1.6'
 
@@ -37,6 +37,7 @@ android {
     buildFeatures{
         viewBinding true
     }
+    namespace 'com.cyberdaystudio.games.spacecadetpinball'
 }
 
 dependencies {
