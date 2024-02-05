@@ -4,7 +4,7 @@
 
 ## Summary
 
-Android port of `3D Pinball for Windows – Space Cadet`, a game bundled with Windows.
+Mobile devices port of `3D Pinball for Windows – Space Cadet`, a game bundled with Windows.
 
 Thanks to [k4zmu2a](https://github.com/k4zmu2a) for the original source code and to [iscle](https://github.com/Iscle) for the original Android porting
 
